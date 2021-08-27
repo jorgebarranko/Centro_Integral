@@ -1,0 +1,61 @@
+/* Screen sizes:
+  default: all
+  intermediate: <1350px
+  md: <900px
+  sm: <700px
+  xs: <500px
+  xxs: <320px
+*/
+/* ////////////////////BARRA INICIO///////////////// */
+.barra-inicio{
+   opacity: var(--opacidad-nav);
+   transition: transform .3s linear;
+}
+/* ////////////////////PAGINA INICIO///////////////// */
+.texto-grande-cabecera {
+    opacity: var(--home-title-opacity);
+    transform: translateY(var(--position));
+    transition: transform .3s linear;
+ }
+ .move-afecciones h2{
+  transform: translateY(var(--afecciones-mov));
+  opacity: var(--afecciones-opacity);
+  transition: all .2s ease-in;
+ }
+ .titulo-blq-neq p{
+    transform: translateX(var(--frase-bloque1));
+    opacity: var(--frase-opacidad1);
+    transition: all .2s linear;
+ }
+ .titulo-blq-saludvisual p{
+    transform: translateX(var(--frase-bloque2));
+    opacity: var(--frase-opacidad2);
+    transition: all .2s linear;
+ }
+ /* ////////////////////CIRUGIA REFRACTIVA///////////////// */
+ .cuadra-boton{
+   transform: translateY(var(--boton-mov));
+   opacity: var(--boton-opacity);
+   transition: all .2s ease-in-out;
+ }
+ .titulo-blq-aseguradoras p{
+    transform: translateX(var(--frase-bloque3));
+    opacity: var(--frase-opacidad3);
+    transition: all .2s linear;
+ }
+  /* ////////////////////CIRUGIA REFRACTIVA///////////////// */
+  
+ /* ////////////////////CONTACTO///////////////// */
+ .titulo-bloque-center p{
+   transform: translateX(var(--frase-bloque4));
+   opacity: var(--frase-opacidad4);
+   transition: all .2s linear;
+ }
+ .imagen-1 img{
+   transform: translateY(var(--imagen1));
+ }
+ .titulo-bloque-form p{
+   transform: translateY(var(--frase-bloque5));
+   opacity: var(--frase-opacidad5);
+   transition: all .2s ease-in;
+ }

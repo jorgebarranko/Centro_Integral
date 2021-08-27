@@ -1,0 +1,95 @@
+html {
+  /* Familias tipográficas */
+  --font-1: "Poppins", sans-serif;
+  --font-2: "Open Sans", sans-serif;
+  --font-3: "Raleway", sans-serif;
+  --font-4: "Quicksand", sans-serif;
+  --font-5: "Lato", sans-serif;
+  --font-6:"Helvetica Neue", sans-serif;
+
+
+  
+  /* Variables tipográficas */
+  --text-2xs: 10px;
+  --text-xs: 12px;
+  --text-s: 14px;
+  --text-m: 16px;
+  --text-l: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+  --text-6xl: 64px;
+
+  /* MIS Variables tipográficas */
+  --text-headline: 1.9vw;
+  --text-subheader: 2.1vw;
+  --text-title: 24px;
+  --text-contenido-simple-menu: 1em;
+  --text-contenido-simple: .9em;
+  --text-menu-xs: .6em;
+  --text-title-cont: 20px;
+  --text-contenido-pie: .85em;
+  --text-jumbo: 4vw;
+
+
+  --text-caption: 14px;
+  --text-note: 13px;
+  --text-base: 18px;
+  --text-display: 80px;
+
+}
+
+@media (max-width: 900px){
+html{
+  --text-headline: 2.5vw;
+  --text-subheader: 3.5vw;
+  --text-title: 22px;
+  --text-contenido-simple-menu: .86em;
+  --text-contenido-simple: .8em;
+  --text-title-cont: 18px;
+  --text-contenido-pie: .8em;
+  --text-jumbo: 8vw;
+  }
+}
+
+
+@media (max-width: 700px){
+  html {
+    --text-headline: 3.5vw;
+    --text-subheader: 4vw;
+    --text-title: 18px;
+    --text-contenido-simple-menu: .84em;
+    --text-contenido-simple: .8em;
+    --text-title-cont: 16px;
+    --text-contenido-pie: .8em;
+    --text-jumbo: 9vw;
+  }
+}
+
+@media (max-width: 500px){
+  html {
+    --text-headline: 5vw;
+    --text-subheader: 5.5vw;
+    --text-title: 18px;
+    --text-contenido-simple-menu: .83em;
+    --text-contenido-simple: .8em;
+    --text-title-cont: 16px;
+    --text-contenido-pie: .8em;
+    --text-jumbo: 10vw;
+  }
+}
+
+@media (max-width: 320px){
+  html {
+    --text-headline: 6vw;
+    --text-subheader: 6.5vw;
+    --text-title: 18px;
+    --text-contenido-simple-menu: .83em;
+    --text-contenido-simple: .8em;
+    --text-title-cont: 16px;
+    --text-contenido-pie: .8em;
+    --text-jumbo: 11vw;
+  }
+}

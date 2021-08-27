@@ -1,0 +1,18 @@
+[
+  {
+    "url":"#link-medios-contacto",
+    "name":"Medio de contacto"
+  },
+  {
+    "url":"#link-ubicacion",
+    "name":"Ubicación"
+  },
+  {
+    "url":"#link-agenda-cita",
+    "name":"Programa una cita"
+  },
+  {
+    "url": "#pie-de-pagina",
+    "name": "Acerca de nosotros"
+  }
+]

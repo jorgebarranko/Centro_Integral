@@ -1,0 +1,118 @@
+/* Screen sizes:
+  default: all
+  intermediate: <1350px
+  md: <900px
+  sm: <700px
+  xs: <500px
+  xxs: <320px
+*/
+.col-6 h1{
+    color: var(--primary-typo-4);
+}
+h1{
+    color: var(--primary-typo-7);
+}
+
+.contenedor-aseguradoras p,
+.contenedor-cirugia-refractiva p{
+    color: var(--secondary-typo-7);
+}
+.contenedor-cirugia-refractiva{
+    height: 100vh;
+}
+
+h2{
+    font-family: var(--font-1);
+    font-weight: 600;
+    color: var(--secondary-typo-1);
+    font-size: var(--text-title-cont);
+    line-height: var(--spacer-l);
+}
+.titulo-blq-aseguradoras{
+    overflow: hidden;
+}
+.imagen-de-cirugia img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 5px;
+}
+.contenedor-aseguradoras{
+    height: min-content;
+    padding-bottom: var(--spacer-l);
+}
+
+.contenedor-iconos-seguros{
+    margin-top: var(--spacer-m);
+    border-radius: 5px;
+    background-color: var(--background-blue45);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+    gap: var(--spacer-m);
+    padding-bottom: var(--spacer-m);
+    padding-top: var(--spacer-m);
+}
+.contenedor-iconos-seguros img{
+    width: 150px;
+}
+.boton-agendacita-cr{
+    border: 0;
+    background-color: var(--secondary-background-green);
+    border-radius: var(--spacer-s);
+    color: var(--secondary-typo-menu);
+    font-weight: 500;
+    font-family: var(--font-1);
+    font-size: var(--text-contenido-simple-menu);
+    box-shadow: var(--sombra-boton-verde);
+    text-align: center;
+    transition: .2s ease all;
+    padding: .5em;
+}
+.cuadra-boton{
+    display: flex;
+    justify-content: start;
+    padding-bottom: var(--spacer-l);
+    padding-top: var(--spacer-l);
+}
+.boton-agendacita-cr:hover{
+background-color: var(--primary-background-button);
+box-shadow: var(--sombra);
+color: var(--primary-background-body1);
+}
+
+@media (max-width: 900px){
+    .contenedor-iconos-seguros{
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: var(--spacer-s);
+    }
+    .contenedor-iconos-seguros img{
+        width: 120px;
+    }
+    .contenedor-cirugia-refractiva{
+        height: min-content;
+        text-align: center;
+    }
+    .contenedor-aseguradoras{
+        text-align: center;
+    }
+    .cuadra-boton{
+        justify-content: center;
+        padding-bottom: var(--spacer-m);
+        padding-top: var(--spacer-m);
+    }
+}
+
+@media (max-width: 700px){
+    
+
+}
+
+@media (max-width: 500px){
+ 
+}
+
+@media (max-width: 320px){
+    
+}

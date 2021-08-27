@@ -1,0 +1,113 @@
+/* General tipografía */
+
+body {
+  font-family: var(--font-1);
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: .8em;
+}
+
+/* Escala tipográfica */
+.text-headline {
+  font-size: var(--text-headline);
+}
+.text-subheader {
+  font-size: var(--text-subheader);
+}
+.text-title{
+  font-size: var(--text-title);
+}
+.text-contenido-simple-menu{
+  font-size: var(--text-contenido-simple-menu);
+}
+.text-contenido-simple{
+  font-size: var(--text-contenido-simple);
+}
+.text-contenido-contacto{
+  font-size: var(--text-contenido-pie);
+}
+.text-jumbo {
+  font-size: var(--text-jumbo);
+}
+.text-title-cont{
+  font-size: var(--text-title-cont);
+}
+.text-2xl{
+  font-size: var(--text-2xl);
+}
+.text-menu-xs{
+  font-size: var(--text-menu-xs);
+}
+
+
+
+.text-body {
+  font-size: var(--text-base);
+}
+
+.text-note {
+  font-size: var(--text-2xs);
+}
+
+.text-caption {
+  font-size: var(--text-xs);
+}
+
+.text-small {
+  font-size: var(--text-2xs);
+  text-transform: uppercase;
+}
+
+
+/* Familias tipográficas */
+.font-6{
+  font-family: var(--font-6);
+  font-weight: 900;
+}
+.font-1 {
+  font-family: var(--font-1);
+  font-weight: 600;
+}
+
+.font-contenido-simple {
+  font-family: var(--font-1);
+  font-weight: 400;
+}
+.font-contacto-simple{
+  font-family: var(--font-1);
+  font-weight: 200;
+}
+
+.font-contacto-sub{
+  font-family: var(--font-1);
+  font-weight: 400;
+}
+
+.font-2{
+  font-family: var(--font-2);
+  font-weight: 500;
+}
+
+.font-3{
+  font-family: var(--font-3);
+  font-weight: 500;
+}
+.font-4{
+  font-family: var(--font-4);
+  font-weight: 400;
+}
+.font-5{
+  font-family: var(--font-5);
+}
+
+.font-telefono{
+  font-family: var(--font-5);
+  font-weight: 300;
+}
+
+.font-open-sans-400{
+  font-family: var(--font-2);
+  font-weight: 400;
+}

@@ -1,0 +1,407 @@
+/* Screen sizes:
+  default: all
+  intermediate: <1350px
+  md: <900px
+  sm: <700px
+  xs: <500px
+  xxs: <320px
+*/
+/* ////////////////////CABECERA///////////////// */
+.contenedor-cabecera-pg{
+    height: min-content;
+    background-color: var(--primary-background-bloque);
+    position: relative;
+}
+.cabecera-pantalla-grande{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(120deg,rgba(0,0,0,1) 30%, rgba(255,255,255,.5) 90%), url(/assets/images/cirugia_refractiva.jpg) center top / cover;
+    background-size: cover;
+    display: flex;
+  }
+  .texto-grande-cabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: var(--spacer-xl);
+    padding-right: var(--spacer-xl);
+    padding-left: var(--spacer-xl);
+    padding-bottom: var(--spacer-l);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* ////////////////////BOTON LANDING///////////////// */
+.cuadra-boton-landing a,
+a:visited,
+a:hover,
+a:focus{
+  color: inherit;
+  text-decoration: none;
+}
+.boton-landing{
+    border: 0;
+    background-color: var(--primary-background-body1);
+    border-radius: var(--spacer-s);
+    color: var(--secondary-typo-menu);
+    font-weight: 500;
+    font-family: var(--font-1);
+    font-size: var(--text-contenido-simple-menu);
+    box-shadow: var(--sombra-boton-verde);
+    text-align: center;
+    transition: .2s ease all;
+    padding: .5em;
+}
+.cuadra-boton-landing{
+    display: flex;
+    justify-self: center;
+    align-self: flex-start;
+    padding: var(--spacer-l);
+}
+.boton-landing:hover{
+background-color: var(--primary-background-button);
+box-shadow: var(--sombra);
+color: var(--primary-background-body1);
+}
+/* ////////////////////BOTON STICKY///////////////// */
+.boton-sticky img{
+    opacity: .6;
+    width: 45px;
+  }
+  .boton-sticky a{
+    display: grid;
+    justify-self: right;
+    font-size: var(--text-menu-xs);
+    color: var(--secondary-typo-menu-2);
+    text-align: center;
+    opacity: .8;
+  }
+  .boton-sticky{
+    display: grid;
+    position: sticky;
+    top: 45%;
+    padding-right: 1em;
+  }
+  .boton-sticky a:hover{
+    opacity: 1;
+  }
+  .boton-sticky img:hover{
+    opacity: 1;
+    transition: all 0.3s;
+  }
+.icono img{
+    width: 40px;
+}
+.icono{
+    display: flex;
+    justify-content: center;
+}
+.col-12 h1{
+    color: var(--primary-typo-4);
+}
+.contenedor-cabecera-pg h1{
+    color: var(--primary-typo-white);
+}
+/* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
+.titulo-blq-neq{
+    overflow: hidden;
+}
+.titulo-blq-saludvisual{
+    overflow: hidden;
+}
+.contenedor-nuestro-equipo p,
+.contenedor-salud-visual p{
+    color: var(--secondary-typo-7);
+}
+.contenedor-nuestro-equipo h2{
+    font-family: var(--font-1);
+    font-weight: 600;
+    color: var(--secondary-typo-1);
+    font-size: var(--text-title-cont);
+    line-height: var(--spacer-l);
+}
+.contenedor-nuestro-equipo{
+    height: 100vh;
+}
+.contenedor-salud-visual{
+    height: 100vh;
+}
+/* ////////////////////OFTALMOLOGIA GENERAL///////////////// */
+.contenedor-cio{
+    background: linear-gradient(120deg,rgba(240, 247, 255, 1) 50%, rgba(240, 247, 255, .9) 50%);
+    height: min-content;
+    padding-top: var(--spacer-m);
+    padding-bottom: var(--spacer-l);
+    margin-bottom: 3em;
+}
+.contenedor-cio p{
+    color: var(--secondary-typo-7);
+}
+
+.question-center{
+    text-align: center;
+    padding-bottom: var(--spacer-m);
+}
+.apila-subtitulo{
+    display: flex;
+    align-items: center;
+    gap: var(--spacer-s);
+}
+.cita-definicion{
+    line-height: 1;
+    font-size: var(--text-s);
+}
+.caja{
+    background-color: var(--primary-background-body1);
+    padding-top: .5em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    box-shadow: var(--sombra-caja);
+}
+.caja p{
+    font-size: var(--text-contenido-simple);
+}
+.hashtag{
+    text-align: left;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-style: oblique;
+}   
+.boton-agendacita{
+    cursor: pointer;
+        border: 0;
+        margin-right: 3em;
+        display: flex;
+        justify-self: center;
+        background-color: var(--secondary-background-green);
+        border-radius: var(--spacer-s);
+        color: var(--secondary-typo-menu);
+        font-weight: 500;
+        font-family: var(--font-1);
+        font-size: var(--text-contenido-simple-menu);
+        box-shadow: var(--sombra-boton-verde);
+        text-align: center;
+        transition: .2s ease all;
+}
+.boton-agendacita:hover{
+    background-color: var(--primary-background-button);
+    box-shadow: var(--sombra);
+    color: var(--primary-background-body1);
+}
+.lanzador-agendacita{
+    padding: .5em 1em;
+}
+.titulo-imagen-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* ////////////////////SERVICIOS///////////////// */
+.contenedor-servicios{
+    background: linear-gradient(120deg,rgba(240, 247, 255, .7) 50%, rgba(240, 247, 255, .7) 50%), url(/assets/images/quirofano.jpg) center center / cover;
+    height: min-content;
+    padding-top: var(--spacer-m);
+    padding-bottom: var(--spacer-l);
+    margin-bottom: 3em;
+}
+.contenedor-servicios p{
+    color: var(--secondary-typo-7);
+}
+.tarjetas-servicios{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: var(--spacer-m);
+}
+.boton-tarjeta{
+    border: 0;
+    padding: 0;
+    background-color: var(--primary-background-body1);
+    border-radius: var(--spacer-s);
+    box-shadow: var(--sombra);
+    display: grid;
+    grid-auto-flow: row;
+    transition: .3s ease all;
+}
+.boton-tarjeta .pie-servicios{
+    background-color: var(--secondary-background);
+    border-bottom-right-radius: var(--spacer-xs);
+    border-bottom-left-radius: var(--spacer-xs);
+}
+.titulo-servicios h1{
+    font-family: var(--font-1);
+    text-align: center;
+    font-size: var(--text-title);
+    font-weight: 600;
+    color: var(--primary-typo-4);
+}
+.body-servicios p{
+    font-family: var(--font-1);
+    font-size: var(--text-contenido-simple-menu);
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--font-1);
+}
+.boton-tarjeta .pie-servicios p{
+    font-family: var(--font-1);
+    font-size: var(--text-contenido-simple-menu);
+    text-align: center;
+    font-weight: 500;
+    color: var(--primary-background-body1);
+}
+.titulo-servicios h1,
+.body-servicios p{
+    padding-top: var(--spacer-l);
+    padding-bottom: var(--spacer-l);
+    padding-left: var(--spacer-l);
+    padding-right: var(--spacer-l);
+}
+.pie-servicios p{
+    padding-top: var(--spacer-s);
+}
+.titulo-servicios{
+    display: grid;
+    height: 120px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-servicios img{
+    width: 120px;
+    position: absolute;
+}
+.body-servicios{
+    display: grid;
+    align-items: flex-start
+}
+.pie-servicios{
+    display: grid;
+    align-self: flex-end ;
+}
+
+.contenedor-servicios .boton-tarjeta:hover{
+    transform: translateY(-6px);
+    background-color: var(--primary-typo-6);
+    box-shadow: var(--sombra-form);
+}
+.contenedor-servicios .boton-tarjeta:hover .titulo-servicios h1,
+.contenedor-servicios .boton-tarjeta:hover .body-servicios p{
+    color: var(--primary-background-body1);
+}
+.contenedor-servicios .boton-tarjeta:hover .pie-servicios p{
+    cursor: pointer;
+    color: var(--primary-typo-6);
+}
+/* ////////////////////MEDIA QUERYS///////////////// */
+@media (max-width: 1350px){
+    .tarjetas-servicios{
+        grid-gap: var(--spacer-m);
+    }
+    .content-margin-adapted h1,
+    .content-margin-adapted p{
+        padding-top: var(--spacer-l);
+        padding-bottom: var(--spacer-m);
+        padding-left: var(--spacer-m);
+        padding-right: var(--spacer-m);
+    }
+        .titulo-servicios{
+            height: 100px;
+        }
+        .titulo-servicios img{
+            width: 100px;
+        }
+  }
+@media (max-width: 900px){
+    h2{
+        line-height: var(--spacer-m);
+    }
+    .apila-subtitulo{
+        align-items: flex-start;
+        flex-direction: column;
+        padding-bottom: var(--spacer-s);
+        gap: var(--spacer-xs);
+    }
+    .cita-definicion{
+        font-size: var(--text-xs);
+    }
+    .caja{
+         padding-left: 0;
+         padding-right: 0;
+    }
+    .boton-sticky{
+        display: none;
+    }
+    .titulo-bloque-center{
+        text-align: center;
+    }
+    .contenedor-nuestro-equipo{
+        height: min-content;
+        text-align: center;
+    }
+    .contenedor-servicios{
+        text-align: center;
+    }
+    .contenedor-salud-visual{
+        height: min-content;
+        text-align: center;
+    }
+    .titulo-servicios{
+        height: 80px;
+    }
+    .titulo-servicios img{
+        width: 80px;
+    }
+}
+@media (max-width: 700px){
+    .texto-grande-cabecera{
+        padding: var(--spacer-m);
+    }
+    .cuadra-boton-landing{
+        padding: var(--spacer-m);
+    }
+    .linea{
+        display: none;
+    }
+
+    .content-margin-adapted h1,
+    .content-margin-adapted p{
+        padding-top: var(--spacer-l);
+        padding-bottom: var(--spacer-m);
+        padding-left: var(--spacer-s);
+        padding-right: var(--spacer-s);
+    }
+    .titulo-servicios{
+        height: 60px;
+    }
+    .titulo-servicios img{
+        width: 60px;
+    }
+}
+@media (max-width: 500px){
+    .texto-grande-cabecera{
+        padding: var(--spacer-s);
+    }
+    .cuadra-boton-landing{
+        padding: var(--spacer-s);
+    }
+    .boton-agendacita{
+         margin-right: 0em;
+    }
+    .hashtag{
+        text-align: center;
+    }
+    .titulo-servicios{
+        height: 55px;
+    }
+    .titulo-servicios img{
+        width: 55px;
+    }
+}
+@media (max-width: 320px){
+    
+}

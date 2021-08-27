@@ -1,0 +1,84 @@
+html{
+    /* color de letras principales grandes */
+    --color-typo-categorias: rgba(50, 103, 182, 0.3);
+    --color-path-categorias: rgba(102, 163, 255, 0.55);
+    --primary-typo-6: #66A3FF;
+    --primary-typo-5: #448FFF;
+    --primary-typo-4: #3385FF;
+    --primary-typo-3: #227AFF;
+    --primary-typo-2: #1170FF;
+    /* PRINCIPAL */
+    --primary-typo-1: #06F;
+    /* PRINCIPAL */
+    --primary-typo-7: #005FEE;
+    --primary-typo-8: #0058DD;
+    --primary-typo-9: #0052CC;
+    --primary-typo-10: #004BBB;
+    --primary-typo-11: #003D99;
+
+    --primary-typo-white: #FFFFFF;
+
+    /* color de letras principales pequenas */
+    --secondary-typo-6: #2D5DA9;
+    --secondary-typo-5: #29559C;
+    --secondary-typo-4: #264E8E;
+    --secondary-typo-3: #224781;
+    --secondary-typo-2: #1F3F73;
+    --secondary-typo-1: #1B3866;
+    /* PRINCIPAL */
+    --secondary-typo-7: #173159;
+    /* PRINCIPAL */
+    --secondary-typo-8: #14294B;
+    --secondary-typo-9: #10223E;
+    --secondary-typo-black: #000;
+    --letras-transparentes: rgba(156, 156, 156, .9);
+
+    /* color de letras en hover */
+    --secondary-typo-subtitulos: #86DAED;
+    --secondary-typo-10: #E2F8FF;
+    --secondary-typo-11: #4FA9DB;
+    --secondary-typo-menu: #313d4e;
+    --secondary-typo-menu-2: #0388A6;
+    --secondary-typo-comillas: #01B9E8;
+
+    --secondary-background-green: #dbe442;
+    --secondary-medical: #0388A6;
+    --background-blue: #1D70B2;
+    --background-grey: #F4F4F4;
+    --background-blue45: #cef4ff;
+
+    --secondary-background-yellow: #F8B03D;
+
+    --primary-background-body: #F2F2F2;
+    --primary-background-body1: #FFFFFF;
+    --primary-background-bloque: #F2F8FF;
+    --secondary-background: #213245;
+    --secondary-cian: #00FFFF;
+    
+    /* FORMULARIO */
+    --fondo-formulario: #F2F5FA;
+    --caja-formulario: #F9F9FA;
+    --fondo-gris-placeholder: rgba(156, 156, 156, 1);
+    --linea-gris-margen: rgba(156, 156, 156, .4);
+
+    /* PREGUNTAS FRECUENTES*/
+    --fondo1-preguntas-frecuentes: #F5FAFB;
+    --fondo2-preguntas-frecuentes: #65B0BD;
+    --gris-claro-preguntas-frecuentes: #B8B8B8;
+
+    --primary-background-button: #0583F2;
+
+    --sombra: 0 0 13px 0 rgba(185, 185, 185, .50);
+    --sombra-form: 0 0 23px 0 rgba(185, 185, 185, .50);
+    --sombra-contenedor-menu: 2.121px 2.121px 8px 0 rgba(64,64,64,.09);
+    --sombra-boton: 0 3px 6px -3px #a9a9a9;
+
+    --border-top: rgba(242, 242, 242, 0.2);
+
+    --footer: var(--secondary-typo-7);
+    --body-color: var(--primary-background-body);
+    --sombra-caja: var(--sombra);
+    --sombra-formulario: var(--sombra-form);
+    --sombra-boton-verde: var(--sombra-boton);
+    --fondo-de-bloque: var(--primary-background-bloque);
+}
