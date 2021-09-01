@@ -47,15 +47,3 @@ var barrainicio = basicScroll.create({
   });
   frase5.start();
 
-  var imagen1 = basicScroll.create({
-    elem: document.querySelector('.imagen-1'),
-    from: 'top-bottom',
-    to: 'bottom-top',
-    props: {
-      '--imagen1': {
-        from: '0',
-        to: '-70%'
-      }
-    }
-  });
-  imagen1.start();

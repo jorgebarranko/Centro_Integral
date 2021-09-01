@@ -51,9 +51,6 @@
    opacity: var(--frase-opacidad4);
    transition: all .2s linear;
  }
- .imagen-1 img{
-   transform: translateY(var(--imagen1));
- }
  .titulo-bloque-form p{
    transform: translateY(var(--frase-bloque5));
    opacity: var(--frase-opacidad5);

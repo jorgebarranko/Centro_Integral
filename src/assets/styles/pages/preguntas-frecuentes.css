@@ -105,7 +105,7 @@
       transition: .3s ease all;
       cursor: pointer;
       background-color: var(--primary-background-body1);
-      border: 2px solid transparent;
+      border: 0;
       border-radius: 5px;
     }
     .contenedor-pregunta.activa{
@@ -169,7 +169,6 @@
     .pregunta svg {
       width: 15px;
     }
-    
     .categoria svg{
       width: 35px;
     }
@@ -217,7 +216,6 @@
     padding-top: var(--spacer-xs);
     padding-bottom: var(--spacer-xs);
   }
-  
   .categoria p{
     margin-left: 1em;
     margin-bottom: 0;
@@ -231,6 +229,9 @@
   .pregunta{
     padding: .5em;
     padding-bottom: 0;
+  }
+  .contenedor-pregunta p{
+    margin-bottom: .1em;
   }
 }
 

@@ -169,28 +169,57 @@ h2{
     gap: var(--spacer-s);
     align-items: center;
 }
+.contenedor-ubi p{
+    color: var(--secondary-typo-7);
+}
 .contenedor-ubi{
     height: min-content;
     padding-bottom: var(--spacer-m);
     overflow: hidden;
 }
-.contenedor-ubi p{
-    color: var(--secondary-typo-7);
+.imagen-ubicacion{
+    display: block;
+    height: min-content;
+    padding-bottom: var(--spacer-l);
 }
-
-.imagen-wtc{
-    height: 50vh;
-    overflow: hidden;
-}
-
 .imagen-1 img{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center center;
-    opacity: 0.8;
-    filter: grayscale(75%);
+    transition: transform 0.5s;
+}
+.imagen-1{
+    position: relative;
+    overflow: hidden;
+}
+.mapa-overlay{
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--font-1);
+    font-size: var(--text-jumbo);
+    font-weight: 500;
+    background-color: rgba(121, 132, 182, 0.25);
+    transition: opacity 0.5s;
+}
+.imagen-1:hover .mapa-overlay{
+    opacity: 1;
+}
+.imagen-1:hover img{
+    transform: scale(1.05);
+}
+.imagen-1:hover{
+    cursor: pointer;
 }
 .icono-maps-color img{
     width: 80px;
@@ -301,7 +330,6 @@ h2{
             color 0.3s ease,
             font-size 0.3s ease;
   }
-
   .contacto-form input[type=checkbox]:checked + label{
     color: var(--secondary-typo-7);
     font-weight: bold;
@@ -419,9 +447,7 @@ color: var(--primary-background-body1);
         text-align: center;
     }
 }
-
 @media (max-width: 700px){
-   
     .linea{
         display: none;
     }
@@ -461,9 +487,6 @@ color: var(--primary-background-body1);
     .selecciona-opcion{
         text-align: left;
     }
-    .imagen-wtc{
-        display: none;
-    }
     .icono-maps-color{
         text-align: center;
     }
@@ -475,66 +498,49 @@ color: var(--primary-background-body1);
         display: grid;
         gap: 1em;
     }
-    .boton-waze{
-        text-align: center;
-        border: 0;
-        display: grid;
-        grid-auto-flow: column;
-        cursor: pointer;
+    .boton-waze,
+    .boton-g-maps{
+        padding-left: var(--spacer-s);
+        padding-right: var(--spacer-l);
+        display: flex;
+        justify-content: start;
+        align-items: center;
         background-color: transparent;
-        transition: .2s ease all;
-        padding: var(--spacer-s);
-        box-shadow: var(--sombra);
-        border-radius: var(--spacer-xs);
-        border: .2px solid var(--linea-gris-margen);
-        padding: 0;
-        height: var(--spacer-l);
-    }
-    .letras-space{
-        display: grid;
-        justify-content: right;
-        align-content: center;
-        height: var(--spacer-l);
+        text-align: center;
+        cursor: pointer;
         border: 0;
+        height: 11vh;
+        position: relative;
+        border-radius: var(--spacer-s);
+        transition: .2s ease all;
+        box-shadow: var(--sombra);
+        border: .1px solid var(--linea-gris-margen);
     }
-    .letras-space a{
+    .boton-waze a,
+    .boton-g-maps a{
         font-family: var(--font-1);
-        font-weight: 400;
+        font-weight: 500;
         color: var(--secondary-typo-7);
+        font-size: var(--text-title-cont);
+    }
+    .boton-waze svg,
+    .boton-g-maps svg{
+        width: 15px;
     }
     .arrow-space{
-        display: grid;
-        justify-self: end;
+        position: absolute;
+        display: flex;
         background-color: var(--secondary-background-green);
-        align-content: center;
-        border-bottom-right-radius: var(--spacer-xs);
-        border-top-right-radius: var(--spacer-xs);
-        padding-left: 1em;
-        padding-right: .5em;
-        border: 0;
-        height: var(--spacer-l);
-    }
-    .arrow-space svg{
-        width: 16px;
-    }
-    .boton-g-maps{
-        text-align: center;
-        border: 0;
-        display: grid;
-        grid-auto-flow: column;
-        cursor: pointer;
-        background-color: transparent;
-        transition: .2s ease all;
-        padding: var(--spacer-s);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding-left: 22px;
+        padding-right: 22px;
+        border-bottom-right-radius: var(--spacer-s);
+        border-top-right-radius: var(--spacer-s);
         box-shadow: var(--sombra);
-        border-radius: var(--spacer-xs);
-        border: .2px solid var(--linea-gris-margen);
-        padding: 0;
-        height: var(--spacer-l);
     }
-
 }
-
 @media (max-width: 500px){
     .boton-agendacita-contacto{
          margin-right: 0em;
@@ -558,7 +564,6 @@ color: var(--primary-background-body1);
         padding-left: var(--spacer-xs);
     }
 }
-
 @media (max-width: 320px){
-    
+
 }
