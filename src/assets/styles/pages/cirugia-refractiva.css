@@ -54,7 +54,9 @@ h2{
     padding-bottom: var(--spacer-m);
     padding-top: var(--spacer-m);
 }
-
+.contenedor-iconos-seguros img{
+    width: 150px;
+}
 .boton-agendacita-cr{
     border: 0;
     background-color: var(--secondary-background-green);
@@ -86,7 +88,7 @@ color: var(--primary-background-body1);
         gap: var(--spacer-s);
     }
     .contenedor-iconos-seguros img{
-        width: 160px;
+        width: 120px;
     }
     .contenedor-cirugia-refractiva{
         height: min-content;
@@ -104,11 +106,12 @@ color: var(--primary-background-body1);
 
 @media (max-width: 700px){
     
-
 }
 
 @media (max-width: 500px){
- 
+    .contenedor-iconos-seguros img{
+        width: 120px;
+    }
 }
 
 @media (max-width: 320px){
