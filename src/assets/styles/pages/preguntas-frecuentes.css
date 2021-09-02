@@ -100,7 +100,10 @@
   }
     /* ////////////////////TERMINA------CATEGORIAS///////////////// */
     /* ////////////////////PREGUNTAS///////////////// */
-    .contenedor-pregunta {
+
+    /* ////////////////////aqui se aplico el cambio de height///////////////// */
+    .contenedor-pregunta{
+      height: min-content;  
       overflow: hidden;
       transition: .3s ease all;
       cursor: pointer;

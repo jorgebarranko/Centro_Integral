@@ -17,11 +17,6 @@
     transform: translateY(var(--position));
     transition: transform .3s linear;
  }
- .move-afecciones h2{
-  transform: translateY(var(--afecciones-mov));
-  opacity: var(--afecciones-opacity);
-  transition: all .2s ease-in;
- }
  .titulo-blq-neq p{
     transform: translateX(var(--frase-bloque1));
     opacity: var(--frase-opacidad1);

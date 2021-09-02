@@ -49,9 +49,10 @@
   }
   .nav{
     grid-auto-flow: row;
-    color: var(--primary-background-body1);
+    color: #FFF;
     justify-items: left;
     padding-top: var(--spacer-xl);
+    z-index: inherit;
   }
   .nav a{
     font-size: var(--text-title);

@@ -10,24 +10,7 @@ var barrainicio = basicScroll.create({
     }
   });
   barrainicio.start();
-
-  var afecciones = basicScroll.create({
-    elem: document.querySelector('.move-afecciones'),
-    from: 'top-bottom',
-    to: 'middle-middle',
-    props: {
-      '--afecciones-mov': {
-        from: '25%',
-        to: '0'
-      },
-      '--afecciones-opacity': {
-        from: 0,
-        to: 1
-      }
-    }
-  });
-  afecciones.start();
-
+  
   var cabecera = basicScroll.create({
     elem: document.querySelector('.texto-grande-cabecera'),
     from: 'middle-middle',

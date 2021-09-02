@@ -108,11 +108,13 @@ h2{
 .btn-llamar p{
     display: none;
   }
-
+  .lanzador-agendacita{
+    display: flex;
+    justify-content: center;
+}
 .boton-agendacita-contacto{
+        cursor: pointer;
         border: 0;
-        display: flex;
-        justify-self: center;
         background-color: var(--secondary-background-green);
         color: var(--secondary-typo-menu);
         border-radius: var(--spacer-s);
@@ -120,22 +122,22 @@ h2{
         font-weight: 500;
         font-family: var(--font-1);
         box-shadow: var(--sombra-boton-verde);
-        color: var(--secondary-typo-menu);
-        font-weight: 500;
         transition: .2s ease all;
+        padding: var(--spacer-s);
+}
+.boton-whatsapp-pp{
+        display: none;
 }
 .boton-agendacita-contacto:hover{
     background-color: var(--primary-background-button);
     box-shadow: var(--sombra);
     color: var(--primary-background-body1);
 }
-.boton-agendacita-contacto a, a:visited, a:hover, a:focus {
+.boton-whatsapp-pp a, .boton-agendacita-contacto a, a:visited, a:hover, a:focus {
     color: inherit;
     text-decoration: none;
 }
-.lanzador-agendacita{
-    padding: .5em 1em;
-}
+
 .frase-whatsapp-pg{
     display: block;
 }
@@ -424,9 +426,6 @@ color: var(--primary-background-body1);
         height: 50vh;
         object-position: center center;
     }
-    .caja-contactanos{
-        padding-right: 1em;
-    }
     .boton-sticky{
         display: none;
     }
@@ -448,6 +447,21 @@ color: var(--primary-background-body1);
     }
 }
 @media (max-width: 700px){
+    .boton-whatsapp-pp{
+        cursor: pointer;
+        border: 0;
+        display: block;
+        background-color: var(--secondary-background-green);
+        border-radius: var(--spacer-s);
+        font-size: var(--text-contenido-simple-menu);
+        font-weight: 500;
+        font-family: var(--font-1);
+        box-shadow: var(--sombra-boton-verde);
+        color: var(--secondary-typo-menu);
+        transition: .2s ease all;
+        overflow: hidden;
+        padding: var(--spacer-s);
+}
     .linea{
         display: none;
     }
@@ -493,31 +507,36 @@ color: var(--primary-background-body1);
     #link-ubicacion h1,
     #link-ubicacion p{
         text-align: center;
-    }   
+    }
+    .icono-maps-color img{
+        display: none;
+    }
+/* //////////// botones de navegacion waze y google maps ////////////// */
     .botones-go{
         display: grid;
         gap: 1em;
     }
-    .boton-waze,
-    .boton-g-maps{
-        padding-left: var(--spacer-s);
-        padding-right: var(--spacer-l);
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        background-color: transparent;
-        text-align: center;
+    .est-boton-waze,
+    .est-boton-g-maps{
         cursor: pointer;
-        border: 0;
-        height: 11vh;
         position: relative;
+        background-color: transparent;
+        border: 0;
         border-radius: var(--spacer-s);
         transition: .2s ease all;
         box-shadow: var(--sombra);
         border: .1px solid var(--linea-gris-margen);
+        overflow: hidden;
+        display: flex;
+        align-content: center;
+        justify-content: start;
     }
-    .boton-waze a,
-    .boton-g-maps a{
+    .boton-waze,
+    .boton-g-maps{
+        cursor: pointer;
+        display: flex;
+        border: 0;
+        background-color: transparent;
         font-family: var(--font-1);
         font-weight: 500;
         color: var(--secondary-typo-7);
@@ -527,15 +546,21 @@ color: var(--primary-background-body1);
     .boton-g-maps svg{
         width: 15px;
     }
-    .arrow-space{
+    .texto--button{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: var(--spacer-s);
+        padding-right: var(--spacer-l);
+    }
+    .icono--button{
         position: absolute;
-        display: flex;
-        background-color: var(--secondary-background-green);
         top: 0;
         right: 0;
         bottom: 0;
-        padding-left: 22px;
-        padding-right: 22px;
+        display: flex;
+        background-color: var(--secondary-background-green);
+        padding-left: 30px;
+        padding-right: 15px;
         border-bottom-right-radius: var(--spacer-s);
         border-top-right-radius: var(--spacer-s);
         box-shadow: var(--sombra);

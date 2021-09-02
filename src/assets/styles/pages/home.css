@@ -92,6 +92,7 @@ color: var(--primary-background-body1);
     opacity: 1;
     transition: all 0.3s;
   }
+/* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
 .icono img{
     width: 40px;
 }
@@ -105,7 +106,6 @@ color: var(--primary-background-body1);
 .contenedor-cabecera-pg h1{
     color: var(--primary-typo-white);
 }
-/* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
 .titulo-blq-neq{
     overflow: hidden;
 }
@@ -129,79 +129,6 @@ color: var(--primary-background-body1);
 .contenedor-salud-visual{
     height: 100vh;
 }
-/* ////////////////////OFTALMOLOGIA GENERAL///////////////// */
-.contenedor-cio{
-    background: linear-gradient(120deg,rgba(240, 247, 255, 1) 50%, rgba(240, 247, 255, .9) 50%);
-    height: min-content;
-    padding-top: var(--spacer-m);
-    padding-bottom: var(--spacer-l);
-    margin-bottom: 3em;
-}
-.contenedor-cio p{
-    color: var(--secondary-typo-7);
-}
-
-.question-center{
-    text-align: center;
-    padding-bottom: var(--spacer-m);
-}
-.apila-subtitulo{
-    display: flex;
-    align-items: center;
-    gap: var(--spacer-s);
-}
-.cita-definicion{
-    line-height: 1;
-    font-size: var(--text-s);
-}
-.caja{
-    background-color: var(--primary-background-body1);
-    padding-top: .5em;
-    padding-bottom: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    border-radius: 5px;
-    border: 2px solid transparent;
-    box-shadow: var(--sombra-caja);
-}
-.caja p{
-    font-size: var(--text-contenido-simple);
-}
-.hashtag{
-    text-align: left;
-    margin-top: 1.5em;
-    margin-bottom: 1em;
-    font-style: oblique;
-}   
-.boton-agendacita{
-    cursor: pointer;
-        border: 0;
-        margin-right: 3em;
-        display: flex;
-        justify-self: center;
-        background-color: var(--secondary-background-green);
-        border-radius: var(--spacer-s);
-        color: var(--secondary-typo-menu);
-        font-weight: 500;
-        font-family: var(--font-1);
-        font-size: var(--text-contenido-simple-menu);
-        box-shadow: var(--sombra-boton-verde);
-        text-align: center;
-        transition: .2s ease all;
-}
-.boton-agendacita:hover{
-    background-color: var(--primary-background-button);
-    box-shadow: var(--sombra);
-    color: var(--primary-background-body1);
-}
-.lanzador-agendacita{
-    padding: .5em 1em;
-}
-.titulo-imagen-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 /* ////////////////////SERVICIOS///////////////// */
 .contenedor-servicios{
     background: linear-gradient(120deg,rgba(240, 247, 255, .7) 50%, rgba(240, 247, 255, .7) 50%), url(/assets/images/quirofano.jpg) center center / cover;
@@ -219,6 +146,7 @@ color: var(--primary-background-body1);
     grid-gap: var(--spacer-m);
 }
 .boton-tarjeta{
+    position: relative;
     border: 0;
     padding: 0;
     background-color: var(--primary-background-body1);
@@ -242,10 +170,9 @@ color: var(--primary-background-body1);
 }
 .body-servicios p{
     font-family: var(--font-1);
-    font-size: var(--text-contenido-simple-menu);
     text-align: center;
     font-weight: 400;
-    font-family: var(--font-1);
+    font-size: var(--text-contenido-simple-menu);
 }
 .boton-tarjeta .pie-servicios p{
     font-family: var(--font-1);
@@ -274,6 +201,8 @@ color: var(--primary-background-body1);
 .titulo-servicios img{
     width: 120px;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 .body-servicios{
     display: grid;
@@ -315,6 +244,9 @@ color: var(--primary-background-body1);
         .titulo-servicios img{
             width: 100px;
         }
+        .boton-sticky{
+            display: none;
+        }
   }
 @media (max-width: 900px){
     h2{
@@ -332,9 +264,6 @@ color: var(--primary-background-body1);
     .caja{
          padding-left: 0;
          padding-right: 0;
-    }
-    .boton-sticky{
-        display: none;
     }
     .titulo-bloque-center{
         text-align: center;
@@ -354,7 +283,7 @@ color: var(--primary-background-body1);
         height: 80px;
     }
     .titulo-servicios img{
-        width: 80px;
+        width: 92px;
     }
 }
 @media (max-width: 700px){
@@ -378,8 +307,8 @@ color: var(--primary-background-body1);
     .titulo-servicios{
         height: 60px;
     }
-    .titulo-servicios img{
-        width: 60px;
+    .icono img{
+        width: 50px;
     }
 }
 @media (max-width: 500px){
@@ -398,9 +327,7 @@ color: var(--primary-background-body1);
     .titulo-servicios{
         height: 55px;
     }
-    .titulo-servicios img{
-        width: 55px;
-    }
+
 }
 @media (max-width: 320px){
     
