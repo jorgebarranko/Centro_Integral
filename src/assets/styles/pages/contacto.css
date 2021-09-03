@@ -13,7 +13,7 @@
 .cabecera-pantalla-grande-contacto{
     width: 100%;
     height: 70vh;
-    background: linear-gradient(120deg,rgba(219, 226, 233, 0.7) 60%, rgba(219, 226, 233, 0.7) 20%), url(/assets/images/cita.jpg) top center / cover;
+    background: linear-gradient(120deg,rgba(219, 226, 233, 0.7) 60%, rgba(219, 226, 233, 0.7) 20%), url(/assets/images/cita.png) center center / cover;
     background-size: cover;
     object-position: center top;
     display: flex;
@@ -46,7 +46,6 @@
     top: 45%;
     padding-right: 1em;
   }
-
   .boton-sticky a:hover{
     opacity: 1;
   }
@@ -54,7 +53,6 @@
     opacity: 1;
     transition: all 0.3s;
   }
-
 /* ////////////////////CAJA CONTACTANOS///////////////// */
 .titulo-bloque-center{
     overflow: hidden;
@@ -130,7 +128,7 @@ h2{
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-right: var(--spacer-m);
+    padding-right: var(--spacer-l);
 }
 .icono--agendacita{
     display: flex;
@@ -142,8 +140,8 @@ h2{
     right: 0;
     padding: var(--spacer-s);
 }
-.icono--agendacita img {
-    width: 20px;
+.icono--agendacita svg{
+    width: 25px;
 }
 .boton-whatsapp-pp{
         display: none;
@@ -206,17 +204,22 @@ h2{
     height: min-content;
     padding-bottom: var(--spacer-l);
 }
-.imagen-1 img{
+.imagen-1-pgde{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.imagen-1-ppeq{
+    display: none;
+}
+.imagen-1-pgde img,
+.imagen-1-ppeq img{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center center;
     transition: transform 0.5s;
-}
-.imagen-1{
-    position: relative;
-    overflow: hidden;
 }
 .mapa-overlay{
     text-align: center;
@@ -236,13 +239,16 @@ h2{
     background-color: rgba(121, 132, 182, 0.25);
     transition: opacity 0.5s;
 }
-.imagen-1:hover .mapa-overlay{
+.imagen-1-pgde:hover .mapa-overlay,
+.imagen-1-ppeq:hover .mapa-overlay{
     opacity: 1;
 }
-.imagen-1:hover img{
+.imagen-1-pgde:hover img,
+.imagen-1-ppeq:hover img{
     transform: scale(1.05);
 }
-.imagen-1:hover{
+.imagen-1-pgde:hover,
+.imagen-1-ppeq:hover{
     cursor: pointer;
 }
 .icono-maps-color img{
@@ -467,6 +473,14 @@ color: var(--primary-background-body1);
     .contenedor-mapa p{
         text-align: center;
     }
+    .imagen-1-pgde{
+        display: none;
+    }
+    .imagen-1-ppeq{
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
 }
 @media (max-width: 700px){
     .boton-whatsapp-pp{
@@ -533,6 +547,12 @@ color: var(--primary-background-body1);
     .icono-maps-color img{
         display: none;
     }
+    .texto--agendacita{
+        padding-right: var(--spacer-m);
+    }
+    .icono--agendacita svg{
+        width: 18px;
+    }
 /* //////////// botones de navegacion waze y google maps ////////////// */
     .botones-go{
         display: grid;
@@ -564,12 +584,12 @@ color: var(--primary-background-body1);
         color: var(--secondary-typo-7);
         font-size: var(--text-title-cont);
     }
-    .texto--button svg,
-    .texto--button svg{
-        width: 40px;
+    .texto--button img,
+    .texto--button img{
+        width: 100px;
     }
     .texto--button{
-        padding-left: var(--spacer-xl);
+        padding-left: var(--spacer-2xl);
         padding-top: var(--spacer-s);
         padding-bottom: var(--spacer-s);
     }
@@ -613,7 +633,19 @@ color: var(--primary-background-body1);
         padding-right: var(--spacer-xs);
         padding-left: var(--spacer-xs);
     }
+    .texto--button{
+        padding-left: var(--spacer-xl);
+    }
 }
 @media (max-width: 320px){
+    .texto--button{
+        padding-left: var(--spacer-l);
+    }
+
+}
+@media (max-width: 319px){
+    .texto--button{
+        padding-left: var(--spacer-s);
+    }
 
 }
