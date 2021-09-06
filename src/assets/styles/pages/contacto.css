@@ -481,29 +481,16 @@ color: var(--primary-background-body1);
     .boton-call{
         display: block;
     }
-    .boton-call-pp{
-        cursor: pointer;
-        border: 0;
-        display: flex;
-        background-color: transparent;
-        border-radius: var(--spacer-m);
-        border: 2px solid var(--primary-background-button);
-        font-size: var(--text-contenido-simple);
-        font-weight: 500;
-        font-family: var(--font-1);
-        box-shadow: var(--sombra-boton-verde);
-        color: var(--primary-background-button);
-        transition: .2s ease all;
-        overflow: hidden;
-        padding: var(--spacer-s);
-    }
+    .boton-call-pp,
     .boton-whatsapp-pp{
         cursor: pointer;
         border: 0;
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: .5em;
         background-color: transparent;
         border-radius: var(--spacer-m);
-        border: 2px solid var(--primary-background-button);
+        border: 2px solid var(--secondary-typo-1);
         font-size: var(--text-contenido-simple);
         font-weight: 500;
         font-family: var(--font-1);
@@ -513,6 +500,11 @@ color: var(--primary-background-body1);
         overflow: hidden;
         padding: var(--spacer-s);
     }
+    .boton-call-pp svg,
+    .boton-whatsapp-pp svg{
+        width: 15px;
+    }
+
  /* //////////// ajustes mapa////////////// */
     .imagen-1-pgde{
         display: none;
