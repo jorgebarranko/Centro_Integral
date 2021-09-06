@@ -45,6 +45,34 @@
   height: max-content;
   margin-bottom: var(--spacer-xl);
 }
+ /* ////////////////////BOTON///////////////// */
+.boton-agendacita-pf{
+  border: 0;
+  background-color: var(--secondary-background-green);
+  border-radius: var(--spacer-s);
+  color: var(--secondary-typo-menu);
+  font-weight: 500;
+  font-family: var(--font-1);
+  font-size: var(--text-contenido-simple-menu);
+  box-shadow: var(--sombra-boton-verde);
+  text-align: center;
+  transition: .2s ease all;
+  padding: .5em;
+}
+.marco-ajusta-boton{
+  position: relative;
+}
+.est-boton-agendacita-pf{
+  position: absolute;
+  display: flex;
+  padding-bottom: var(--spacer-l);
+  padding-top: var(--spacer-l);
+}
+.boton-agendacita-pf:hover{
+background-color: var(--primary-background-button);
+box-shadow: var(--sombra);
+color: var(--primary-background-body1);
+}
   /* ////////////////////CATEGORIAS///////////////// */
   .categoria{
     display: flex;
@@ -196,6 +224,12 @@
     .contenedor-preguntas-frecuentes{
       text-align: center;
     }
+    .est-boton-agendacita-pf{
+      position: relative;
+      justify-content: center;
+      padding-bottom: var(--spacer-m);
+      padding-top: var(--spacer-m);
+  }
 }
 
 @media (max-width: 700px){

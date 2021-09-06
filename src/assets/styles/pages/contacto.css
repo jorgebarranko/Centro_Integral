@@ -12,7 +12,7 @@
 }
 .cabecera-pantalla-grande-contacto{
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     background: linear-gradient(120deg,rgba(219, 226, 233, 0.7) 60%, rgba(219, 226, 233, 0.7) 20%), url(/assets/images/cita.png) center center / cover;
     background-size: cover;
     object-position: center top;
@@ -74,7 +74,6 @@ h2{
     padding-bottom: var(--spacer-xl);
     margin-bottom: var(--spacer-2xl);
 }
-
 .frase-center{
     text-align: center;
     padding-bottom: var(--spacer-m);
@@ -90,11 +89,9 @@ h2{
     border: 2px solid transparent;
     box-shadow: var(--sombra-caja);
 }
-
 .caja-contactanos p{
     font-size: var(--text-contenido-simple);
 }
-
 .centrar-contenido{
     text-align: center;
     display: flex;
@@ -102,14 +99,13 @@ h2{
     align-items: center;
     padding-bottom: var(--spacer-l);
 }
-
-.btn-llamar p{
-    display: none;
-  }
   .est-boton-agendacita{
     display: flex;
     justify-self: center;
     position: relative;
+}
+.boton-call{
+    display: none;
 }
 .boton-agendacita-contacto{
         cursor: pointer;
@@ -206,6 +202,7 @@ h2{
 }
 .imagen-1-pgde{
     display: block;
+    height: 75vh;
     position: relative;
     overflow: hidden;
 }
@@ -243,8 +240,7 @@ h2{
 .imagen-1-ppeq:hover .mapa-overlay{
     opacity: 1;
 }
-.imagen-1-pgde:hover img,
-.imagen-1-ppeq:hover img{
+.imagen-1-pgde:hover img{
     transform: scale(1.05);
 }
 .imagen-1-pgde:hover,
@@ -440,6 +436,11 @@ box-shadow: var(--sombra);
 color: var(--primary-background-body1);
 }
 /* ////////////////////MEDIA QUERYS///////////////// */
+@media (max-width: 1350px){
+    .imagen-1-pgde{
+        height: 65vh;
+    }
+}
 @media (max-width: 900px){
     .cabecera-pantalla-grande-contacto{
         height: 90vh;
@@ -473,6 +474,46 @@ color: var(--primary-background-body1);
     .contenedor-mapa p{
         text-align: center;
     }
+
+}
+@media (max-width: 700px){
+    /* //////////// botones call y whatsapp pp ////////////// */
+    .boton-call{
+        display: block;
+    }
+    .boton-call-pp{
+        cursor: pointer;
+        border: 0;
+        display: flex;
+        background-color: transparent;
+        border-radius: var(--spacer-m);
+        border: 2px solid var(--primary-background-button);
+        font-size: var(--text-contenido-simple);
+        font-weight: 500;
+        font-family: var(--font-1);
+        box-shadow: var(--sombra-boton-verde);
+        color: var(--primary-background-button);
+        transition: .2s ease all;
+        overflow: hidden;
+        padding: var(--spacer-s);
+    }
+    .boton-whatsapp-pp{
+        cursor: pointer;
+        border: 0;
+        display: block;
+        background-color: transparent;
+        border-radius: var(--spacer-m);
+        border: 2px solid var(--primary-background-button);
+        font-size: var(--text-contenido-simple);
+        font-weight: 500;
+        font-family: var(--font-1);
+        box-shadow: var(--sombra-boton-verde);
+        color: var(--primary-background-button);
+        transition: .2s ease all;
+        overflow: hidden;
+        padding: var(--spacer-s);
+    }
+ /* //////////// ajustes mapa////////////// */
     .imagen-1-pgde{
         display: none;
     }
@@ -481,23 +522,6 @@ color: var(--primary-background-body1);
         position: relative;
         overflow: hidden;
     }
-}
-@media (max-width: 700px){
-    .boton-whatsapp-pp{
-        cursor: pointer;
-        border: 0;
-        display: block;
-        background-color: var(--secondary-background-green);
-        border-radius: var(--spacer-s);
-        font-size: var(--text-contenido-simple-menu);
-        font-weight: 500;
-        font-family: var(--font-1);
-        box-shadow: var(--sombra-boton-verde);
-        color: var(--secondary-typo-menu);
-        transition: .2s ease all;
-        overflow: hidden;
-        padding: var(--spacer-s);
-}
     .linea{
         display: none;
     }
@@ -647,5 +671,4 @@ color: var(--primary-background-body1);
     .texto--button{
         padding-left: var(--spacer-s);
     }
-
 }

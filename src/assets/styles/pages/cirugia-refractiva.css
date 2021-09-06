@@ -12,7 +12,6 @@
 h1{
     color: var(--primary-typo-7);
 }
-
 .contenedor-aseguradoras p,
 .contenedor-cirugia-refractiva p{
     color: var(--secondary-typo-7);
@@ -20,7 +19,6 @@ h1{
 .contenedor-cirugia-refractiva{
     height: 100vh;
 }
-
 h2{
     font-family: var(--font-1);
     font-weight: 600;
@@ -32,6 +30,7 @@ h2{
     overflow: hidden;
 }
 .imagen-de-cirugia img{
+    padding-top: var(--spacer-s);
     height: 80%;
     width: 100%;
     object-fit: cover;
@@ -70,18 +69,16 @@ h2{
     transition: .2s ease all;
     padding: .5em;
 }
-.cuadra-boton{
+.est-boton-agendacita-cr{
     display: flex;
-    justify-content: start;
-    padding-bottom: var(--spacer-l);
-    padding-top: var(--spacer-l);
+    justify-self: start;
+    padding-top: var(--spacer-s);
 }
 .boton-agendacita-cr:hover{
 background-color: var(--primary-background-button);
 box-shadow: var(--sombra);
 color: var(--primary-background-body1);
 }
-
 @media (max-width: 900px){
     .contenedor-iconos-seguros{
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -97,13 +94,12 @@ color: var(--primary-background-body1);
     .contenedor-aseguradoras{
         text-align: center;
     }
-    .cuadra-boton{
-        justify-content: center;
-        padding-bottom: var(--spacer-m);
-        padding-top: var(--spacer-m);
+    .est-boton-agendacita-cr{
+        justify-self: center;
+        padding-bottom: var(--spacer-s);
+        padding-top: var(--spacer-s);
     }
 }
-
 @media (max-width: 700px){
     
 }
