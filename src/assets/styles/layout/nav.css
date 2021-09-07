@@ -49,9 +49,11 @@
     color: var(--primary-background-body1);
   }
   .nav{
+    color: var(--primary-background-body1);
     grid-auto-flow: row;
     justify-items: left;
     padding-top: var(--spacer-xl);
+    z-index: var(--z-index-menu-vert);
   }
   .nav a{
     font-size: var(--text-title);
