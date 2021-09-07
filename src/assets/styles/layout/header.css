@@ -132,6 +132,8 @@ a:focus{
 @media (max-width: 700px){
   .header{
     margin-top: var(--spacer-xl);
+    padding-top: var(--spacer-s);
+    padding-bottom: var(--spacer-s);
   }
   .frase-inicio,
   .sub-menu{

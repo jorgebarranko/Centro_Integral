@@ -46,10 +46,10 @@
   }
   .nav-activo .menu-principal{
     display: flex;
+    color: var(--primary-background-body1);
   }
   .nav{
     grid-auto-flow: row;
-    color: var(--primary-background-body1);
     justify-items: left;
     padding-top: var(--spacer-xl);
   }

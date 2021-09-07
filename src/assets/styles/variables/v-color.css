@@ -60,6 +60,7 @@ html{
     --caja-formulario: #F9F9FA;
     --fondo-gris-placeholder: rgba(156, 156, 156, 1);
     --linea-gris-margen: rgba(156, 156, 156, .4);
+    --transparencia-font: rgb(27, 27, 27, .85);
 
     /* PREGUNTAS FRECUENTES*/
     --fondo1-preguntas-frecuentes: #F5FAFB;

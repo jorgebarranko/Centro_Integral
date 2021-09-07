@@ -458,10 +458,6 @@ color: var(--primary-background-body1);
     .boton-sticky{
         display: none;
     }
-    .texto-grande-cabecera{
-        padding-right: 5em;
-        justify-content: center;
-    }
     .icono-maps-color img{
         width: 70px;
     }
@@ -491,7 +487,7 @@ color: var(--primary-background-body1);
         background-color: transparent;
         border-radius: var(--spacer-m);
         border: 2px solid var(--secondary-typo-1);
-        font-size: var(--text-contenido-simple);
+        font-size: var(--text-contenido-simple-menu);
         font-weight: 500;
         font-family: var(--font-1);
         box-shadow: var(--sombra-boton-verde);
@@ -502,7 +498,7 @@ color: var(--primary-background-body1);
     }
     .boton-call-pp svg,
     .boton-whatsapp-pp svg{
-        width: 15px;
+        width: 20px;
     }
 
  /* //////////// ajustes mapa////////////// */

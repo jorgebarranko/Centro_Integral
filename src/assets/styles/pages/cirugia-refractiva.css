@@ -57,17 +57,25 @@ h2{
     width: 150px;
 }
 .boton-agendacita-cr{
+    cursor: pointer;
     border: 0;
-    background-color: var(--secondary-background-green);
-    border-radius: var(--spacer-s);
-    color: var(--secondary-typo-menu);
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background-color: transparent;
+    border-radius: var(--spacer-m);
+    border: 1px solid var(--secondary-typo-1);
+    font-size: var(--text-contenido-simple);
     font-weight: 500;
     font-family: var(--font-1);
-    font-size: var(--text-contenido-simple-menu);
     box-shadow: var(--sombra-boton-verde);
-    text-align: center;
+    color: var(--primary-background-button);
     transition: .2s ease all;
-    padding: .5em;
+    overflow: hidden;
+    padding: var(--spacer-s);
+}
+.boton-agendacita-cr svg{
+    width: 20px;
 }
 .est-boton-agendacita-cr{
     display: flex;
@@ -75,7 +83,7 @@ h2{
     padding-top: var(--spacer-s);
 }
 .boton-agendacita-cr:hover{
-background-color: var(--primary-background-button);
+background-color: var(--primary-typo-4);
 box-shadow: var(--sombra);
 color: var(--primary-background-body1);
 }

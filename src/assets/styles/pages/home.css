@@ -8,64 +8,47 @@
 */
 /* ////////////////////CABECERA///////////////// */
 .contenedor-cabecera-pg{
-    height: min-content;
-    background-color: var(--primary-background-bloque);
-    position: relative;
-}
-.cabecera-pantalla-grande{
-    width: 100%;
+    background: linear-gradient(120deg,rgba(0,0,0,1) 30%, rgba(255,255,255,.5) 90%), url(/assets/images/cirugia_refractiva.jpg) top center / cover;
     height: 70vh;
-    background: linear-gradient(120deg,rgba(0,0,0,1) 30%, rgba(255,255,255,.5) 90%), url(/assets/images/cirugia_refractiva.jpg) center top / cover;
-    background-size: cover;
-    display: flex;
-  }
-  .texto-grande-cabecera{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding-top: var(--spacer-xl);
-    padding-right: var(--spacer-xl);
-    padding-left: var(--spacer-xl);
-    padding-bottom: var(--spacer-l);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    overflow: hidden;
+    display: grid;
+    align-content: center;
 }
+  .texto-grande-cabecera h1{
+      color: var(--primary-background-body1);
+      padding-bottom: var(--spacer-l);
+  }
 /* ////////////////////BOTON LANDING///////////////// */
-.cuadra-boton-landing a,
-a:visited,
-a:hover,
-a:focus{
-  color: inherit;
-  text-decoration: none;
+.boton-landing svg{
+    width: 20px;
 }
 .boton-landing{
+    cursor: pointer;
     border: 0;
-    background-color: var(--primary-background-body1);
-    border-radius: var(--spacer-s);
-    color: var(--secondary-typo-menu);
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background-color: transparent;
+    border-radius: var(--spacer-m);
+    border: 2px solid var(--primary-background-body1);
+    font-size: var(--text-contenido-simple);
     font-weight: 500;
     font-family: var(--font-1);
-    font-size: var(--text-contenido-simple-menu);
     box-shadow: var(--sombra-boton-verde);
-    text-align: center;
+    color: var(--primary-background-body1);
     transition: .2s ease all;
-    padding: .5em;
-}
-.cuadra-boton-landing{
-    display: flex;
-    justify-self: center;
-    align-self: flex-start;
-    padding: var(--spacer-l);
+    overflow: hidden;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .boton-landing:hover{
-background-color: var(--primary-background-button);
-box-shadow: var(--sombra);
-color: var(--primary-background-body1);
+    background-color: var(--primary-background-body1);
+    box-shadow: var(--sombra);
+    color: var(--transparencia-font);
 }
+
 /* ////////////////////BOTON STICKY///////////////// */
 .boton-sticky img{
     opacity: .6;
@@ -102,9 +85,6 @@ color: var(--primary-background-body1);
 }
 .col-12 h1{
     color: var(--primary-typo-4);
-}
-.contenedor-cabecera-pg h1{
-    color: var(--primary-typo-white);
 }
 .titulo-blq-neq{
     overflow: hidden;
@@ -226,6 +206,39 @@ color: var(--primary-background-body1);
     cursor: pointer;
     color: var(--primary-typo-6);
 }
+.est-boton-saludv{
+    display: flex;
+    justify-self: center;
+    margin-top: var(--spacer-l);
+    margin-bottom: var(--spacer-l);
+}
+.boton-saludv{
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background-color: transparent;
+    border-radius: var(--spacer-m);
+    border: 1px solid var(--secondary-typo-1);
+    font-size: var(--text-contenido-simple-menu);
+    font-weight: 500;
+    font-family: var(--font-1);
+    box-shadow: var(--sombra-boton-verde);
+    color: var(--primary-background-button);
+    transition: .2s ease all;
+    overflow: hidden;
+    padding: var(--spacer-s);
+}
+.boton-saludv svg{
+    width: 20px;
+}
+.boton-saludv:hover{
+    background-color: var(--primary-typo-4);
+    box-shadow: var(--sombra);
+    color: var(--primary-background-body1);
+    }
+
 /* ////////////////////MEDIA QUERYS///////////////// */
 @media (max-width: 1350px){
     .tarjetas-servicios{
@@ -285,6 +298,9 @@ color: var(--primary-background-body1);
     .titulo-servicios img{
         width: 92px;
     }
+    .texto-grande-cabecera h1{
+        padding-bottom: var(--spacer-m);
+    }
 }
 @media (max-width: 700px){
     .texto-grande-cabecera{
@@ -326,6 +342,9 @@ color: var(--primary-background-body1);
     }
     .titulo-servicios{
         height: 55px;
+    }
+    .texto-grande-cabecera h1{
+        padding-bottom: var(--spacer-s);
     }
 
 }

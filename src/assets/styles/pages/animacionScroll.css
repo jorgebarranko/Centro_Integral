@@ -12,7 +12,7 @@
    transition: transform .3s linear;
 }
 /* ////////////////////PAGINA INICIO///////////////// */
-.texto-grande-cabecera {
+.cabecera-pantalla-grande {
     opacity: var(--home-title-opacity);
     transform: translateY(var(--position));
     transition: transform .3s linear;
