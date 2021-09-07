@@ -63,6 +63,7 @@ a:focus{
     padding-top: var(--spacer-xl);
   }
   .nav a{
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 600;
   }
 }
