@@ -411,20 +411,28 @@ h2{
 }
 /* ////////////////////BOTON ENVIAR///////////////// */
 .boton-enviar{
+    cursor: pointer;
     border: 0;
-    background-color: var(--secondary-background-green);
-    border-radius: var(--spacer-s);
-    color: var(--secondary-typo-menu);
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background-color: var(--primary-background-body1);
+    border-radius: var(--spacer-m);
+    border: 2px solid var(--secondary-typo-1);
+    font-size: var(--text-contenido-simple);
     font-weight: 500;
     font-family: var(--font-1);
-    font-size: var(--text-contenido-simple-menu);
     box-shadow: var(--sombra-boton-verde);
-    text-align: center;
+    color: var(--primary-background-button);
     transition: .2s ease all;
-    padding-top: var(--spacer-s);
-    padding-bottom: var(--spacer-s);
-    padding-left: var(--spacer-l);
-    padding-right: var(--spacer-l);
+    overflow: hidden;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.boton-enviar svg{
+    width: 20px;
 }
 .cuadra-boton-submit{
     display: flex;
@@ -434,6 +442,7 @@ h2{
 background-color: var(--primary-background-button);
 box-shadow: var(--sombra);
 color: var(--primary-background-body1);
+border: 2px solid transparent;
 }
 /* ////////////////////MEDIA QUERYS///////////////// */
 @media (max-width: 1350px){

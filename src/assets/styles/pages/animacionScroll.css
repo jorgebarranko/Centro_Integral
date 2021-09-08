@@ -28,7 +28,7 @@
     transition: all .2s linear;
  }
  /* ////////////////////CIRUGIA REFRACTIVA///////////////// */
- .cuadra-boton{
+ .est-boton-agendacita-cr{
    transform: translateY(var(--boton-mov));
    opacity: var(--boton-opacity);
    transition: all .2s ease-in-out;
@@ -38,8 +38,12 @@
     opacity: var(--frase-opacidad3);
     transition: all .2s linear;
  }
-  /* ////////////////////CIRUGIA REFRACTIVA///////////////// */
-  
+  /* ////////////////////PREGUNTAS FRECUENTES///////////////// */
+  .est-boton-agendacita-pf{
+   transform: translateY(var(--boton-mov));
+   opacity: var(--boton-opacity);
+   transition: all .2s ease-in-out;
+ }
  /* ////////////////////CONTACTO///////////////// */
  .titulo-bloque-center p{
    transform: translateX(var(--frase-bloque4));

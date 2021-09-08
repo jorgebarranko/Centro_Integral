@@ -90,6 +90,7 @@ svg:hover #pin-maps{
 .pie-convenios-subtitle path:hover{
   fill: var(--secondary-background-green);
 }
+.centro_evaluacion a,
 .pie-terminos a,
 .trabaja-nosotros a,
 .linea-maps a,

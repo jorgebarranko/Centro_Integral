@@ -29,7 +29,7 @@ var barrainicio = basicScroll.create({
   frase3.start();
 
   var botonCR = basicScroll.create({
-    elem: document.querySelector('.cuadra-boton'),
+    elem: document.querySelector('.est-boton-agendacita-cr'),
     from: 'bottom-bottom',
     to: 'bottom-bottom',
     props: {

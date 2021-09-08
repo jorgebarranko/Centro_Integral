@@ -54,7 +54,7 @@
   gap: .5em;
   background-color: var(--primary-background-body1);
   border-radius: var(--spacer-m);
-  border: 1px solid var(--secondary-typo-1);
+  border: 2px solid var(--secondary-typo-1);
   font-size: var(--text-contenido-simple);
   font-weight: 500;
   font-family: var(--font-1);
@@ -63,6 +63,9 @@
   transition: .2s ease all;
   overflow: hidden;
   padding: var(--spacer-s);
+}
+.boton-agendacita-pf svg{
+  width: 20px;
 }
 .marco-ajusta-boton{
   position: relative;
@@ -77,6 +80,7 @@
 background-color: var(--primary-background-button);
 box-shadow: var(--sombra);
 color: var(--primary-background-body1);
+border: 2px solid transparent;
 }
   /* ////////////////////CATEGORIAS///////////////// */
   .categoria{

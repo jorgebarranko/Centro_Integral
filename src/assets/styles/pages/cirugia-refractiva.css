@@ -64,7 +64,7 @@ h2{
     gap: .5em;
     background-color: transparent;
     border-radius: var(--spacer-m);
-    border: 1px solid var(--secondary-typo-1);
+    border: 2px solid var(--secondary-typo-1);
     font-size: var(--text-contenido-simple);
     font-weight: 500;
     font-family: var(--font-1);
@@ -86,6 +86,7 @@ h2{
 background-color: var(--primary-typo-4);
 box-shadow: var(--sombra);
 color: var(--primary-background-body1);
+border: 2px solid transparent;
 }
 @media (max-width: 900px){
     .contenedor-iconos-seguros{
