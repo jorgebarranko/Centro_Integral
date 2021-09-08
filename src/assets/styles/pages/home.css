@@ -89,6 +89,9 @@
 .titulo-blq-neq{
     overflow: hidden;
 }
+.titulo-blq-saludvisual{
+    overflow: hidden;
+}
 .alinea-titulo{
     display: flex;
     align-items: center;
