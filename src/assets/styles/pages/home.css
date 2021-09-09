@@ -124,6 +124,9 @@
     height: 100vh;
 }
 /* ////////////////////SERVICIOS///////////////// */
+.titulo-blq-serv{
+    overflow: hidden;
+}
 .contenedor-servicios{
     background: linear-gradient(120deg,rgba(240, 247, 255, .7) 50%, rgba(240, 247, 255, .7) 50%), url(/assets/images/quirofano.jpg) center center / cover;
     height: min-content;

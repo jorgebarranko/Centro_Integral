@@ -11,19 +11,19 @@ var barrainicio = basicScroll.create({
 });
 barrainicio.start();
 
-  var botonPF = basicScroll.create({
-    elem: document.querySelector('.est-boton-agendacita-pf-pp'),
-    from: 'bottom-bottom',
-    to: 'bottom-bottom',
-    props: {
-      '--boton-mov': {
-        from: '100%',
-        to: '0'
-      },
-      '--boton-opacity': {
-        from: 0,
-        to: 1
-      }
-    }
-  });
-  botonPF.start();
+  // var botonPF = basicScroll.create({
+  //   elem: document.querySelector('.est-boton-agendacita-pf-pp'),
+  //   from: 'bottom-bottom',
+  //   to: 'bottom-bottom',
+  //   props: {
+  //     '--boton-mov': {
+  //       from: '100%',
+  //       to: '0'
+  //     },
+  //     '--boton-opacity': {
+  //       from: 0,
+  //       to: 1
+  //     }
+  //   }
+  // });
+  // botonPF.start();
