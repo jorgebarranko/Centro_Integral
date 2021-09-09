@@ -328,9 +328,6 @@
     .cuadra-boton-landing{
         padding: var(--spacer-m);
     }
-    .linea{
-        display: none;
-    }
     .content-margin-adapted h1,
     .content-margin-adapted p{
         padding-top: var(--spacer-l);

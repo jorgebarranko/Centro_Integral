@@ -7,7 +7,12 @@
   xxs: <320px
 */
 .contenedor-preguntas .pregunta{
-  font-size: var(--text-contenido-simple-menu);
+    font-size: var(--text-contenido-simple-menu);
+    font-weight: 500;
+}
+.contenedor-pregunta .respuesta p{
+  font-size: var(--text-contenido-simple);
+  font-weight: 300;
 }
 .contenedor-pregunta .respuesta,
 .categorias .categoria p{
@@ -30,7 +35,7 @@
   .categoria svg{
     width: 50px;
   }
-  .pregunta svg {
+  .flecha-baja svg {
     width: 18px;
   }
   .contenedor-preguntas-frecuentes p {
@@ -132,21 +137,23 @@ border: 2px solid transparent;
   }
   .contenedor-preguntas.activo{
     display: grid;
-    height: max-content;
-    margin-bottom: var(--spacer-m);
   }
     /* ////////////////////TERMINA------CATEGORIAS///////////////// */
     /* ////////////////////PREGUNTAS///////////////// */
 
     /* ////////////////////aqui se aplico el cambio de height///////////////// */
     .contenedor-pregunta{
-      height: min-content;  
       overflow: hidden;
       transition: .3s ease all;
       cursor: pointer;
       background-color: var(--primary-background-body1);
       border: 0;
       border-radius: 5px;
+      height: min-content;
+      margin-bottom: 0;
+      padding-left: var(--spacer-s);
+      padding-right: var(--spacer-s);
+      padding-top: var(--spacer-m);
     }
     .contenedor-pregunta.activa{
       border: 1.5px solid var(--linea-gris-margen);
@@ -155,19 +162,12 @@ border: 2px solid transparent;
     .contenedor-pregunta.activa .pregunta{
       color: var(--primary-typo-7);
     }
-    .contenedor-pregunta .pregunta{
-      font-weight: 500;
-    }
   .pregunta{
     text-align: left;
     display:  flex;
     justify-content: space-between;
+    align-items: center;
     gap: 2em;
-    margin-bottom: 0;
-    padding-left: var(--spacer-m);
-    padding-top: var(--spacer-m);
-    padding-bottom: var(--spacer-s);
-    padding-right: var(--spacer-m);
   }
   .contenedor-preguntas-frecuentes .preguntas p{
     color: var(--secondary-typo-7);
@@ -180,10 +180,6 @@ border: 2px solid transparent;
   }
   .contenedor-pregunta.activa .respuesta{
     opacity: 1;
-    padding-left: var(--spacer-m);
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: var(--spacer-m);
   }
   .contenedor-pregunta.activa svg {
     transform: rotate(180deg);
@@ -206,23 +202,14 @@ border: 2px solid transparent;
   }
 }
 @media (max-width: 900px){
-    .pregunta svg {
-      width: 15px;
-    }
     .categoria svg{
       width: 35px;
     }
-    .pregunta svg {
-      width: 10px;
+    .flecha-baja svg {
+      width: 15px;
     }
     .categoria{
       padding-top: var(--spacer-xs);
-    }
-    .pregunta{
-      padding-left: var(--spacer-s);
-      padding-top: var(--spacer-m);
-      padding-bottom: var(--spacer-s);
-      padding-right: var(--spacer-m);
     }
     .contenedor-pregunta.activa .respuesta{
       padding-left: var(--spacer-s);
@@ -238,6 +225,11 @@ border: 2px solid transparent;
       justify-content: center;
       padding-bottom: var(--spacer-m);
       padding-top: var(--spacer-m);
+  }
+  .contenedor-pregunta{
+    padding-left: var(--spacer-xs);
+    padding-right: var(--spacer-xs);
+    padding-top: var(--spacer-s);
   }
 }
 
@@ -271,10 +263,6 @@ border: 2px solid transparent;
   }
   .contenedor-pregunta.activa .respuesta{
     padding: .5em;
-  }
-  .pregunta{
-    padding: .5em;
-    padding-bottom: 0;
   }
   .contenedor-pregunta p{
     margin-bottom: .1em;

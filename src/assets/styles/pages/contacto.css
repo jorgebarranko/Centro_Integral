@@ -519,9 +519,6 @@ border: 2px solid transparent;
         position: relative;
         overflow: hidden;
     }
-    .linea{
-        display: none;
-    }
     .titulo-bloque-center{
         text-align: center;
     }
