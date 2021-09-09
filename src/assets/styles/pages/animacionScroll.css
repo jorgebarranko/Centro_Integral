@@ -22,6 +22,11 @@
     opacity: var(--frase-opacidad1);
     transition: all .2s linear;
  }
+ .titulo-blq-serv p{
+  transform: translateX(var(--frase-bloque3));
+  opacity: var(--frase-opacidad3);
+  transition: all .2s linear;
+ }
  .titulo-blq-saludvisual p{
     transform: translateX(var(--frase-bloque2));
     opacity: var(--frase-opacidad2);
@@ -39,7 +44,7 @@
     transition: all .2s linear;
  }
   /* ////////////////////PREGUNTAS FRECUENTES///////////////// */
-  .est-boton-agendacita-pf{
+  .est-boton-agendacita-pf-pp{
    transform: translateY(var(--boton-mov));
    opacity: var(--boton-opacity);
    transition: all .2s ease-in-out;
@@ -49,6 +54,11 @@
    transform: translateX(var(--frase-bloque4));
    opacity: var(--frase-opacidad4);
    transition: all .2s linear;
+ }
+ .titulo-completo-maps p{
+  transform: translateX(var(--frase-bloque6));
+  opacity: var(--frase-opacidad6);
+  transition: all .2s linear;
  }
  .titulo-bloque-form p{
    transform: translateY(var(--frase-bloque5));

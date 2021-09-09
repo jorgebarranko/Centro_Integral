@@ -30,12 +30,15 @@ h2{
     overflow: hidden;
 }
 .imagen-de-cirugia img{
-    padding-top: var(--spacer-s);
     height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: center top;
     border-radius: 5px;
+}
+.imagen-de-cirugia{
+    display: flex;
+    align-items: center;
 }
 .contenedor-aseguradoras{
     height: min-content;
@@ -79,8 +82,9 @@ h2{
 }
 .est-boton-agendacita-cr{
     display: flex;
-    justify-self: start;
-    padding-top: var(--spacer-s);
+    justify-self: center;
+    padding-bottom: var(--spacer-l);
+    padding-top: var(--spacer-l);
 }
 .boton-agendacita-cr:hover{
 background-color: var(--primary-typo-4);
@@ -102,11 +106,6 @@ border: 2px solid transparent;
     }
     .contenedor-aseguradoras{
         text-align: center;
-    }
-    .est-boton-agendacita-cr{
-        justify-self: center;
-        padding-bottom: var(--spacer-s);
-        padding-top: var(--spacer-s);
     }
 }
 @media (max-width: 700px){

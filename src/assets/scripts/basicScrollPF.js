@@ -12,7 +12,7 @@ var barrainicio = basicScroll.create({
 barrainicio.start();
 
   var botonPF = basicScroll.create({
-    elem: document.querySelector('.est-boton-agendacita-pf'),
+    elem: document.querySelector('.est-boton-agendacita-pf-pp'),
     from: 'bottom-bottom',
     to: 'bottom-bottom',
     props: {

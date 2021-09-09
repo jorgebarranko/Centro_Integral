@@ -46,8 +46,8 @@ html{
   --text-headline: 2.5vw;
   --text-subheader: 3.5vw;
   --text-title: 22px;
-  --text-contenido-simple-menu: .9em;
-  --text-contenido-simple: .8em;
+  --text-contenido-simple-menu: .95em;
+  --text-contenido-simple: .85em;
   --text-title-cont: 18px;
   --text-contenido-pie: .8em;
   --text-jumbo: 8vw;
@@ -60,8 +60,8 @@ html{
     --text-headline: 3.5vw;
     --text-subheader: 4vw;
     --text-title: 18px;
-    --text-contenido-simple-menu: .9em;
-    --text-contenido-simple: .8em;
+    --text-contenido-simple-menu: .95em;
+    --text-contenido-simple: .85em;
     --text-title-cont: 17px;
     --text-contenido-pie: .8em;
     --text-jumbo: 9vw;
@@ -73,8 +73,8 @@ html{
     --text-headline: 5vw;
     --text-subheader: 5.5vw;
     --text-title: 18px;
-    --text-contenido-simple-menu: .9em;
-    --text-contenido-simple: .8em;
+    --text-contenido-simple-menu: .95em;
+    --text-contenido-simple: .85em;
     --text-title-cont: 16px;
     --text-contenido-pie: .8em;
     --text-jumbo: 10vw;
@@ -86,8 +86,8 @@ html{
     --text-headline: 6vw;
     --text-subheader: 6.5vw;
     --text-title: 18px;
-    --text-contenido-simple-menu: .9em;
-    --text-contenido-simple: .8em;
+    --text-contenido-simple-menu: .95em;
+    --text-contenido-simple: .85em;
     --text-title-cont: 14px;
     --text-contenido-pie: .8em;
     --text-jumbo: 11vw;

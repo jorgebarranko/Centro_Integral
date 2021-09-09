@@ -179,13 +179,8 @@ h2{
     line-height: .5em;
 }
 /* ////////////////////UBICACION///////////////// */
-.icono-maps-color img{
-    width: 60px;
-}
-.titulo-con-imagen-maps{
-    display: flex;
-    gap: var(--spacer-s);
-    align-items: center;
+.titulo-completo-maps{
+    overflow: hidden;
 }
 .contenedor-ubi p{
     color: var(--secondary-typo-7);
@@ -194,6 +189,18 @@ h2{
     height: min-content;
     padding-bottom: var(--spacer-m);
     overflow: hidden;
+}
+.icono-de-mapas-color img{
+    width: 90px;
+}
+.icono-de-mapas-color{
+    display: block;
+    cursor: pointer;
+}
+.titulo-con-imagen-maps{
+    display: flex;
+    align-items: center;
+    gap: 2em;
 }
 .imagen-ubicacion{
     display: block;
@@ -246,9 +253,6 @@ h2{
 .imagen-1-pgde:hover,
 .imagen-1-ppeq:hover{
     cursor: pointer;
-}
-.icono-maps-color img{
-    width: 80px;
 }
 .titulo_etiqueta{
     overflow: hidden;
@@ -449,6 +453,9 @@ border: 2px solid transparent;
     .imagen-1-pgde{
         height: 65vh;
     }
+    .titulo-con-imagen-maps img{
+        width: 70px;
+    }
 }
 @media (max-width: 900px){
     .cabecera-pantalla-grande-contacto{
@@ -467,17 +474,25 @@ border: 2px solid transparent;
     .boton-sticky{
         display: none;
     }
-    .icono-maps-color img{
-        width: 70px;
-    }
     .cuadra-boton-submit{
         justify-content: center;
     }
     .contenedor-formulario{
         text-align: center;
     }
-    .contenedor-mapa p{
+    .contenedor-mapa p,
+    .contenedor-mapa h1{
         text-align: center;
+    }
+    .titulo-completo-maps{
+        justify-content: center;
+        text-align: center;
+    }
+    .titulo-con-imagen-maps{
+        justify-content: center;
+    }
+    .titulo-con-imagen-maps img{
+        width: 60px;
     }
 
 }
@@ -511,6 +526,14 @@ border: 2px solid transparent;
     }
 
  /* //////////// ajustes mapa////////////// */
+
+ .titulo-con-imagen-maps{
+    gap: 0;
+}
+     .icono-de-mapas-color img{
+          display: none;
+            }
+
     .imagen-1-pgde{
         display: none;
     }
@@ -544,26 +567,11 @@ border: 2px solid transparent;
     .frase-whatsapp-pp{
         display: block;
     }
-    .icono-maps-color img{
-        width: 70px;
-    }
-    .titulo-con-imagen-maps{
-        flex-direction: column;
-    }
+    
     .fecha-cita,
     .mensaje-formulario,
     .selecciona-opcion{
         text-align: left;
-    }
-    .icono-maps-color{
-        text-align: center;
-    }
-    #link-ubicacion h1,
-    #link-ubicacion p{
-        text-align: center;
-    }
-    .icono-maps-color img{
-        display: none;
     }
     .texto--agendacita{
         padding-right: var(--spacer-m);

@@ -45,6 +45,23 @@ var barrainicio = basicScroll.create({
   });
   frase1.start();
 
+  var frase3 = basicScroll.create({
+    elem: document.querySelector('.titulo-blq-serv'),
+    from: 'top-bottom',
+    to: 'middle-middle',
+    props: {
+      '--frase-bloque3': {
+        from: '10%',
+        to: '0'
+      },
+      '--frase-opacidad3': {
+        from: 0,
+        to: 1
+      }
+    }
+  });
+  frase3.start();
+
   var frase2 = basicScroll.create({
     elem: document.querySelector('.titulo-blq-saludvisual'),
     from: 'top-bottom',

@@ -30,6 +30,23 @@ var barrainicio = basicScroll.create({
   });
   frase4.start();
 
+  var frase6 = basicScroll.create({
+    elem: document.querySelector('.titulo-completo-maps'),
+    from: 'top-bottom',
+    to: 'middle-middle',
+    props: {
+      '--frase-bloque6': {
+        from: '10%',
+        to: '0'
+      },
+      '--frase-opacidad6': {
+        from: 0,
+        to: 1
+      }
+    }
+  });
+  frase6.start();
+
   var frase5 = basicScroll.create({
     elem: document.querySelector('.titulo-bloque-form'),
     from: 'top-bottom',
