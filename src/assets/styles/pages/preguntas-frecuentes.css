@@ -229,6 +229,7 @@ border: 2px solid transparent;
     padding-left: var(--spacer-xs);
     padding-right: var(--spacer-xs);
     padding-top: var(--spacer-s);
+    padding-bottom: var(--spacer-xs);
   }
   .est-boton-agendacita-pf-pg{
     display: none;
@@ -283,7 +284,9 @@ border: 2px solid transparent;
   .contenedor-pregunta p{
     margin-bottom: .1em;
   }
-  .contenedor-pregunta .respuesta,
+  .contenedor-pregunta .respuesta p{
+    font-size: var(--text-contenido-simple-menu);
+  }
   .categorias .categoria p{
   font-size: var(--text-contenido-simple-menu);
 }
