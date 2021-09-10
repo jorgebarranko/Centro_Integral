@@ -72,7 +72,6 @@ h2{
     background-color: var(--primary-background-bloque);
     padding-top: var(--spacer-m);
     padding-bottom: var(--spacer-xl);
-    margin-bottom: var(--spacer-2xl);
 }
 .frase-center{
     text-align: center;
@@ -179,6 +178,9 @@ h2{
     line-height: .5em;
 }
 /* ////////////////////UBICACION///////////////// */
+.instrucciones-navegacion{
+    display: none;
+  }
 .titulo-completo-maps{
     overflow: hidden;
 }
@@ -580,6 +582,14 @@ border: 2px solid transparent;
         width: 18px;
     }
 /* //////////// botones de navegacion waze y google maps ////////////// */
+.instrucciones-navegacion{
+    display: block;
+    font: var(--font-1);
+    font-size: var(--text-title);
+    font-weight: 600;
+    color: var(--secondary-typo-7);
+    text-align: center;
+  }
     .botones-go{
         display: grid;
         gap: 1em;
