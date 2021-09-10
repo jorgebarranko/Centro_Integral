@@ -253,7 +253,9 @@ border: 2px solid transparent;
     display: grid;
     grid-template-columns: 1fr;
     gap: 1em;
-    margin-top: var(--spacer-xs);
+    margin-top: var(--spacer-s);
+    margin-left: var(--spacer-m);
+    margin-right: var(--spacer-m);
   }
   .categoria{
     display: flex;
@@ -281,6 +283,13 @@ border: 2px solid transparent;
   .contenedor-pregunta p{
     margin-bottom: .1em;
   }
+  .contenedor-pregunta .respuesta,
+  .categorias .categoria p{
+  font-size: var(--text-contenido-simple-menu);
+}
+.preguntas {
+  margin-top: var(--spacer-m);
+}
 }
 
 @media (max-width: 500px){
