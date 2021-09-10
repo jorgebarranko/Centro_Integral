@@ -13,7 +13,7 @@
 .cabecera-pantalla-grande-contacto{
     width: 100%;
     height: 60vh;
-    background: linear-gradient(120deg,rgba(219, 226, 233, 0.7) 60%, rgba(219, 226, 233, 0.7) 20%), url(/assets/images/cita.png) center center / cover;
+    background: linear-gradient(120deg,rgba(219, 226, 233, 0.7) 60%, rgba(219, 226, 233, 0.7) 20%), url(/assets/images/cita_contact_page.svg) center center / cover;
     background-size: cover;
     object-position: center top;
     display: flex;
@@ -455,6 +455,9 @@ border: 2px solid transparent;
     .imagen-1-pgde{
         height: 65vh;
     }
+    .boton-sticky{
+        display: none;
+    }
     .titulo-con-imagen-maps img{
         width: 70px;
     }
@@ -472,9 +475,6 @@ border: 2px solid transparent;
     .cabecera-pantalla-grande-contacto{
         height: 50vh;
         object-position: center center;
-    }
-    .boton-sticky{
-        display: none;
     }
     .cuadra-boton-submit{
         justify-content: center;

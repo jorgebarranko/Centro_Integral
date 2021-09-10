@@ -12,7 +12,7 @@ var barrainicio = basicScroll.create({
   barrainicio.start();
   
   var cabecera = basicScroll.create({
-    elem: document.querySelector('.texto-grande-cabecera'),
+    elem: document.querySelector('.cabecera-pantalla-grande'),
     from: 'middle-middle',
     to: 'bottom-top',
     props: {
