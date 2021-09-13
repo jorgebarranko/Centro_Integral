@@ -124,7 +124,7 @@
     height: 100vh;
 }
 .contenedor-salud-visual{
-    height: 100vh;
+    height: min-content;
 }
 /* ////////////////////SERVICIOS///////////////// */
 .titulo-blq-serv{
@@ -306,7 +306,6 @@
         text-align: center;
     }
     .contenedor-salud-visual{
-        height: min-content;
         text-align: center;
     }
     .titulo-servicios{
