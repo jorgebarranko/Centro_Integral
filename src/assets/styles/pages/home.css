@@ -142,6 +142,7 @@
 }
 .tarjetas-servicios{
     display: grid;
+
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: var(--spacer-m);
 }
@@ -152,9 +153,33 @@
     background-color: var(--primary-background-body1);
     border-radius: var(--spacer-s);
     box-shadow: var(--sombra);
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     transition: .3s ease all;
+}
+.titulo-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: -webkit-fill-available;
+    height: 120px;
+    background-color: transparent;
+    padding-left: var(--spacer-m);
+    padding-right: var(--spacer-m);
+}
+.body-servicios{
+    display: flex;
+    flex-grow: 1;
+    padding-right: var(--spacer-m);
+    padding-left: var(--spacer-m);
+    padding-bottom: var(--spacer-m);
+    padding-top: var(--spacer-s);
+}
+.pie-servicios{
+    display: flex;
+    inline-size: -webkit-fill-available;
+    justify-content: center;
 }
 .boton-tarjeta .pie-servicios{
     background-color: var(--secondary-background);
@@ -172,38 +197,17 @@
     font-family: var(--font-1);
     text-align: center;
     font-weight: 400;
-    font-size: var(--text-contenido-simple);
+    font-size: var(--text-contenido-simple-menu);
 }
 .boton-tarjeta .pie-servicios p{
     font-family: var(--font-1);
-    font-size: var(--text-contenido-simple);
+    font-size: var(--text-contenido-simple-menu);
     text-align: center;
     font-weight: 500;
     color: var(--primary-background-body1);
 }
-.titulo-servicios{
-    padding-top: var(--spacer-l);
-    padding-bottom: var(--spacer-l);
-    padding-left: var(--spacer-l);
-    padding-right: var(--spacer-l);
-}
-.body-servicios{
-    display: grid;
-    align-items: flex-start;
-    padding-top: var(--spacer-m);
-    padding-bottom: var(--spacer-m);
-    padding-left: var(--spacer-m);
-    padding-right: var(--spacer-m);
-}
 .pie-servicios p{
     padding-top: var(--spacer-s);
-}
-.titulo-servicios{
-    display: grid;
-    height: 120px;
-    background-color: transparent;
-    justify-content: center;
-    align-items: center;
 }
 .titulo-servicios img{
     width: 120px;
@@ -211,11 +215,6 @@
     top: 0;
     left: 0;
 }
-.pie-servicios{
-    display: grid;
-    align-self: flex-end ;
-}
-
 .contenedor-servicios .boton-tarjeta:hover{
     transform: translateY(-6px);
     background-color: var(--primary-typo-6);
@@ -268,14 +267,16 @@
     .tarjetas-servicios{
         grid-gap: var(--spacer-m);
     }
-        .titulo-servicios{
-            height: 100px;
-        }
+
         .titulo-servicios img{
             width: 100px;
         }
         .boton-sticky{
             display: none;
+        }
+        .body-servicios{
+            padding-right: var(--spacer-s);
+            padding-left: var(--spacer-s);
         }
   }
 @media (max-width: 900px){
@@ -308,9 +309,6 @@
     .contenedor-salud-visual{
         text-align: center;
     }
-    .titulo-servicios{
-        height: 80px;
-    }
     .titulo-servicios img{
         width: 92px;
     }
@@ -333,14 +331,12 @@
         display: none;
     }
     .body-servicios{
-        padding-left: var(--spacer-s);
-        padding-right: var(--spacer-s);
+        padding-left: var(--spacer-xs);
+        padding-right: var(--spacer-xs);
+        padding-top: var(--spacer-xs);
     }
     .texto-grande-cabecera{
         padding: var(--spacer-m);
-    }
-    .titulo-servicios{
-        height: 60px;
     }
     .icono img{
         width: 50px;
@@ -362,9 +358,6 @@
     }
     .hashtag{
         text-align: center;
-    }
-    .titulo-servicios{
-        height: 55px;
     }
     .texto-grande-cabecera h1{
         padding-bottom: var(--spacer-s);
