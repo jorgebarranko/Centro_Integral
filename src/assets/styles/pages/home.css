@@ -142,11 +142,10 @@
 }
 .tarjetas-servicios{
     display: grid;
-
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: var(--spacer-m);
 }
-.boton-tarjeta{
+.tarjeta{
     position: relative;
     border: 0;
     padding: 0;
@@ -176,15 +175,17 @@
     padding-bottom: var(--spacer-m);
     padding-top: var(--spacer-s);
 }
-.pie-servicios{
+.est-pie-serv{
     display: flex;
-    inline-size: -webkit-fill-available;
-    justify-content: center;
-}
-.boton-tarjeta .pie-servicios{
-    background-color: var(--secondary-background);
+    justify-content: center;    background-color: var(--secondary-background);
     border-bottom-right-radius: var(--spacer-xs);
     border-bottom-left-radius: var(--spacer-xs);
+}
+.boton-pie-servicios{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
 }
 .titulo-servicios h1{
     font-family: var(--font-1);
@@ -197,16 +198,16 @@
     font-family: var(--font-1);
     text-align: center;
     font-weight: 400;
-    font-size: var(--text-contenido-simple-menu);
+    font-size: var(--text-contenido-simple);
 }
-.boton-tarjeta .pie-servicios p{
+.boton-pie-servicios p{
     font-family: var(--font-1);
     font-size: var(--text-contenido-simple-menu);
     text-align: center;
     font-weight: 500;
     color: var(--primary-background-body1);
 }
-.pie-servicios p{
+.boton-pie-servicios p{
     padding-top: var(--spacer-s);
 }
 .titulo-servicios img{
@@ -215,17 +216,16 @@
     top: 0;
     left: 0;
 }
-.contenedor-servicios .boton-tarjeta:hover{
+.contenedor-servicios .tarjeta:hover{
     transform: translateY(-6px);
     background-color: var(--primary-typo-6);
     box-shadow: var(--sombra-form);
 }
-.contenedor-servicios .boton-tarjeta:hover .titulo-servicios h1,
-.contenedor-servicios .boton-tarjeta:hover .body-servicios p{
+.contenedor-servicios .tarjeta:hover .titulo-servicios h1,
+.contenedor-servicios .tarjeta:hover .body-servicios p{
     color: var(--primary-background-body1);
 }
-.contenedor-servicios .boton-tarjeta:hover .pie-servicios p{
-    cursor: pointer;
+.contenedor-servicios .tarjeta:hover .boton-pie-servicios p{
     color: var(--primary-typo-6);
 }
 .est-boton-saludv{
