@@ -89,14 +89,13 @@ eleventyNavigation:
                                                       <div class="col-12 col-md-10 col-sm-8 col-xs-6 col-xxs-4 centra-formas">
                                                         <form class="contacto-form">
                                                             <div class="selecciona-opcion"><label for="">Selecciona una opción</label>
-                                                                <input type="text" list="opciones" placeholder="Esta casilla es opcional">
-                                                                <datalist id="opciones">
-                                                                <option>CITA VALORACIÓN - CIRUGÍA LÁSER</option>
-                                                                <option>CITA - SALUD VISUAL</option>
-                                                                <option>ESTUDIOS</option>
-                                                                <option>VACANTES</option>
-                                                                <option>OTRO</option>
-                                                                </datalist>
+                                                                <select id="opciones">
+                                                                <option>Valoración cirugía laser</option>
+                                                                <option>Cita salud visual</option>
+                                                                <option>Estudios</option>
+                                                                <option>Vacantes</option>
+                                                                <option>Otro</option>
+                                                                </select>
                                                             </div>
                                                                 <div>
                                                                 <label class="custom-field"><input type="text" name="nombre" required maxlength="25">
@@ -119,7 +118,7 @@ eleventyNavigation:
                                                                             </label>
                                                                             </div>
                                                                                 <div class="fecha-cita">
-                                                                                <label for="date">* opcional    - selecciona una fecha tentativa</label>
+                                                                                <label for="date">* opcional  - selecciona una fecha tentativa</label>
                                                                                 <input type="date" id="selecciona_fecha">
                                                                                 </div>
                                                                                      <div class="mensaje-formulario">

@@ -178,8 +178,8 @@
 .est-pie-serv{
     display: flex;
     justify-content: center;    background-color: var(--secondary-background);
-    border-bottom-right-radius: var(--spacer-xs);
-    border-bottom-left-radius: var(--spacer-xs);
+    border-bottom-right-radius: var(--spacer-s);
+    border-bottom-left-radius: var(--spacer-s);
 }
 .boton-pie-servicios{
     cursor: pointer;
@@ -202,7 +202,7 @@
 }
 .boton-pie-servicios p{
     font-family: var(--font-1);
-    font-size: var(--text-title);
+    font-size: var(--text-contenido-simple-menu);
     text-align: center;
     font-weight: 500;
     color: var(--primary-background-body1);
@@ -308,9 +308,6 @@
     }
     .contenedor-salud-visual{
         text-align: center;
-    }
-    .titulo-servicios img{
-        width: 92px;
     }
     .texto-grande-cabecera h1{
         padding-bottom: var(--spacer-m);

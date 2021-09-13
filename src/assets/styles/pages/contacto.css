@@ -308,6 +308,7 @@ h2{
         -ms-appereance: none;
         -moz-appearance: none;
         background: none;
+        background-color: transparent;
         border: 1.5px solid var(--background-blue);
         opacity: .5;
         padding: 6px;
@@ -315,9 +316,25 @@ h2{
         outline: none;
         font-family: var(--font-1);
     }
-    .contacto-form input[type=text]{
-        text-transform: uppercase;
-    }
+.contacto-form select{
+        width: 100%;
+        height: var(--spacer-l);
+        appearance: none;
+        -webkit-appearance: none;
+        -ms-appereance: none;
+        -moz-appearance: none;
+        background-image: url(/assets/images/iconos/arrow_down_grey.svg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: 1.5em auto;
+        background-color: transparent;
+        border: 1.5px solid var(--background-blue);
+        opacity: .8;
+        padding: 6px;
+        border-radius: 5px;
+        outline: none;
+        font-family: var(--font-1);
+}
     .contacto-form textarea{
         resize: none;
         width: 100%;
@@ -336,7 +353,6 @@ h2{
         font-family: var(--font-1);
         font-size: var(--text-contenido-simple);
       }
-  
   .condiciones #acepto{
     width: 15px;
     height: 15px;
