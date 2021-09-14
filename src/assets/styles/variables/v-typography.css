@@ -27,7 +27,7 @@ html {
   --text-title: 24px;
   --text-title-cont: 20px;
   --text-contenido-simple-menu: 16px;
-  --text-contenido-simple: 14px;
+  --text-contenido-simple: 14.3px;
   --text-menu-xs: 12px;
   --text-contenido-pie: 13.5px;
   --text-jumbo: 4vw;
@@ -42,6 +42,7 @@ html {
 @media (max-width: 1350px){
   html{
     --text-tajetas: 1.8vw;
+    --text-contenido-simple: 13.8px;
   }
 }
 
@@ -53,7 +54,7 @@ html{
   --text-title: 22px;
   --text-title-cont: 19px;
   --text-contenido-simple-menu: 15px;
-  --text-contenido-simple: 13px;
+  --text-contenido-simple: 13.2px;
   --text-menu-xs: 11px;
   --text-contenido-pie: 12.5;
   --text-jumbo: 8vw;
@@ -69,7 +70,7 @@ html{
     --text-title: 18px;
     --text-title-cont: 18px;
     --text-contenido-simple-menu: 15px;
-    --text-contenido-simple: 13px;
+    --text-contenido-simple: 13.2px;
     --text-menu-xs: 11px;
     --text-contenido-pie: 11.5px;
     --text-jumbo: 9vw;
@@ -84,7 +85,7 @@ html{
     --text-title: 18px;
     --text-title-cont: 17px;
     --text-contenido-simple-menu: 14.5px;
-    --text-contenido-simple: 13px;
+    --text-contenido-simple: 13.1px;
     --text-menu-xs: 11px;
     --text-contenido-pie: 11.5px;
     --text-jumbo: 10vw;
@@ -99,7 +100,7 @@ html{
     --text-title: 18px;
     --text-title-cont: 16px;
     --text-contenido-simple-menu: 14.5px;
-    --text-contenido-simple: 13px;
+    --text-contenido-simple: 13.1px;
     --text-menu-xs: 11px;
     --text-contenido-pie: 11.5px;
     --text-jumbo: 11vw;
