@@ -164,8 +164,8 @@
     inline-size: -webkit-fill-available;
     height: 120px;
     background-color: transparent;
-    padding-left: var(--spacer-m);
-    padding-right: var(--spacer-m);
+    padding-left: var(--spacer-l);
+    padding-right: var(--spacer-l);
 }
 .body-servicios{
     display: flex;
@@ -190,7 +190,7 @@
 .titulo-servicios h1{
     font-family: var(--font-1);
     text-align: center;
-    font-size: var(--text-title);
+    font-size: var(--text-tajetas);
     font-weight: 600;
     color: var(--primary-typo-4);
 }

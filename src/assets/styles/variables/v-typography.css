@@ -7,8 +7,6 @@ html {
   --font-5: "Lato", sans-serif;
   --font-6:"Helvetica Neue", sans-serif;
 
-
-  
   /* Variables tipográficas */
   --text-2xs: 10px;
   --text-xs: 12px;
@@ -25,6 +23,7 @@ html {
   /* MIS Variables tipográficas */
   --text-headline: 1.9vw;
   --text-subheader: 2.1vw;
+  --text-tajetas: 1.2vw;
   --text-title: 24px;
   --text-title-cont: 20px;
   --text-contenido-simple-menu: 16px;
@@ -40,10 +39,17 @@ html {
 
 }
 
+@media (max-width: 1350px){
+  html{
+    --text-tajetas: 1.8vw;
+  }
+}
+
 @media (max-width: 900px){
 html{
-  --text-headline: 2.5vw;
+  --text-headline: 1.5vw;
   --text-subheader: 3.5vw;
+  --text-tajetas: 2.8vw;
   --text-title: 22px;
   --text-title-cont: 19px;
   --text-contenido-simple-menu: 15px;
@@ -59,6 +65,7 @@ html{
   html {
     --text-headline: 3.5vw;
     --text-subheader: 4vw;
+    --text-tajetas: 3.5vw;
     --text-title: 18px;
     --text-title-cont: 18px;
     --text-contenido-simple-menu: 15px;
@@ -73,6 +80,7 @@ html{
   html {
     --text-headline: 5vw;
     --text-subheader: 5.5vw;
+    --text-tajetas: 5.5vw;
     --text-title: 18px;
     --text-title-cont: 17px;
     --text-contenido-simple-menu: 14.5px;
@@ -87,6 +95,7 @@ html{
   html {
     --text-headline: 6vw;
     --text-subheader: 6.5vw;
+    --text-tajetas: 6.5vw;
     --text-title: 18px;
     --text-title-cont: 16px;
     --text-contenido-simple-menu: 14.5px;

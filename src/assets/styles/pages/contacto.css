@@ -315,8 +315,10 @@ h2{
         border-radius: 5px;
         outline: none;
         font-family: var(--font-1);
+        font-size: var(--text-contenido-simple);
     }
 .contacto-form select{
+    cursor: pointer;
         width: 100%;
         height: var(--spacer-l);
         appearance: none;
@@ -329,11 +331,12 @@ h2{
         background-size: 1.5em auto;
         background-color: transparent;
         border: 1.5px solid var(--background-blue);
-        opacity: .8;
+        opacity: .9;
         padding: 6px;
         border-radius: 5px;
         outline: none;
         font-family: var(--font-1);
+        font-size: var(--text-contenido-simple);
 }
     .contacto-form textarea{
         resize: none;
@@ -397,7 +400,7 @@ h2{
       transition: opacity 0.2s ease-in-out;
 }
  :focus::placeholder{
-    opacity: .7;
+    opacity: .8;
 }
 
   .custom-field input[type=text]:valid + .custom-placeholder,
