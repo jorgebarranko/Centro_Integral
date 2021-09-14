@@ -4,3 +4,13 @@
   padding: var(--spacer-m);
   text-align: center;
 }
+
+.l-spacing p{
+  letter-spacing: .1px;
+}
+
+@media (max-width: 900px){
+  .l-spacing p{
+    letter-spacing: .5px;
+}
+  }
