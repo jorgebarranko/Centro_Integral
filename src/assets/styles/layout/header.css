@@ -80,7 +80,8 @@ a:focus{
   width: 170px;
 }
 
-.header-logo {
+.header-logo{
+  cursor: pointer;
   width: 210px;
   position: relative;
   z-index: var(--z-index-logo);
