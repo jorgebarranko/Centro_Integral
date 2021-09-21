@@ -21,16 +21,16 @@ html {
   --text-6xl: 64px;
 
   /* MIS Variables tipográficas */
-  --text-headline: 1.9vw;
-  --text-subheader: 2.1vw;
+  --text-headline: 28px;
+  --text-subheader: 30px;
   --text-tajetas: 1.2vw;
   --text-title: 24px;
-  --text-title-cont: 20px;
+  --text-title-cont: 21px;
   --text-contenido-simple-menu: 16px;
   --text-contenido-simple: 14.3px;
   --text-menu-xs: 12px;
   --text-contenido-pie: 13.5px;
-  --text-jumbo: 4vw;
+  --text-jumbo: 3.5vw;
 
   --text-caption: 14px;
   --text-note: 13px;
@@ -41,68 +41,74 @@ html {
 
 @media (max-width: 1350px){
   html{
+    --text-headline: 25px;
+    --text-subheader: 28px;
+    --text-jumbo: 3.8vw;
     --text-tajetas: 1.8vw;
+    --text-title: 22.5px;
+    --text-title-cont: 20px;
     --text-contenido-simple: 13.8px;
+    --text-contenido-pie: 13.5px;
   }
 }
 
 @media (max-width: 900px){
 html{
-  --text-headline: 1.5vw;
-  --text-subheader: 3.5vw;
+  --text-headline: 24px;
+  --text-subheader: 26px;
   --text-tajetas: 2.8vw;
-  --text-title: 22px;
+  --text-title: 21.5px;
   --text-title-cont: 19px;
   --text-contenido-simple-menu: 15px;
   --text-contenido-simple: 13.6px;
   --text-menu-xs: 11px;
-  --text-contenido-pie: 12.5;
-  --text-jumbo: 8vw;
+  --text-contenido-pie: 13.5px;
+  --text-jumbo: 5vw;
   }
 }
 
 
 @media (max-width: 700px){
   html {
-    --text-headline: 3.5vw;
-    --text-subheader: 4vw;
+    --text-headline: 22px;
+    --text-subheader: 23px;
     --text-tajetas: 3.5vw;
     --text-title: 18px;
     --text-title-cont: 18px;
     --text-contenido-simple-menu: 15px;
     --text-contenido-simple: 13.5px;
     --text-menu-xs: 11px;
-    --text-contenido-pie: 11.5px;
-    --text-jumbo: 9vw;
+    --text-contenido-pie: 13.5px;
+    --text-jumbo: 7vw;
   }
 }
 
 @media (max-width: 500px){
   html {
-    --text-headline: 5vw;
-    --text-subheader: 5.5vw;
+    --text-headline: 21px;
+    --text-subheader: 22px;
     --text-tajetas: 5.5vw;
     --text-title: 18px;
     --text-title-cont: 17px;
     --text-contenido-simple-menu: 14.5px;
     --text-contenido-simple: 13.5px;
     --text-menu-xs: 11px;
-    --text-contenido-pie: 11.5px;
-    --text-jumbo: 10vw;
+    --text-contenido-pie: 13.5px;
+    --text-jumbo: 9vw;
   }
 }
 
 @media (max-width: 320px){
   html {
-    --text-headline: 6vw;
-    --text-subheader: 6.5vw;
+    --text-headline: 20px;
+    --text-subheader: 21px;
     --text-tajetas: 6.5vw;
-    --text-title: 18px;
+    --text-title: 17px;
     --text-title-cont: 16px;
     --text-contenido-simple-menu: 14.5px;
     --text-contenido-simple: 13.5px;
     --text-menu-xs: 11px;
-    --text-contenido-pie: 11.5px;
-    --text-jumbo: 11vw;
+    --text-contenido-pie: 13.2px;
+    --text-jumbo: 11.5vw;
   }
 }

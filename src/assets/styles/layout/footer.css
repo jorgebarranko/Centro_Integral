@@ -6,7 +6,6 @@
 .caja-contacto{
   background-color: var(--secondary-background);
 }
-
 .caja-contacto h2{
   color: var(--secondary-typo-subtitulos);
 }
@@ -208,6 +207,11 @@ a:focus{
 }
  /* ////////////////////////MEDIA QUERYS/////////////////// */
 
+@media (max-width: 1350px){
+  .caja-contacto p{
+    text-align: justify;
+  }
+}
 @media (max-width: 900px){
   .fondo-contacto{
     padding-top: var(--spacer-s);

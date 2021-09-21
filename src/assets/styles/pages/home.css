@@ -19,8 +19,18 @@
 }
   .texto-grande-cabecera h1{
       color: var(--primary-background-body1);
-      padding-bottom: var(--spacer-xl);
+      padding-bottom: var(--spacer-s);
   }
+  .texto-grande-cabecera p{
+    color: var(--primary-background-body1);
+    padding-bottom: var(--spacer-l);
+}
+.llamado-accion p{
+    font-family: var(--font-1);
+    font-size: var(--text-title-cont);
+    font-weight: 500;
+    color: var(--primary-background-bloque);
+}
   .texto-grande-cabecera{
       position: relative;
   }
@@ -30,7 +40,6 @@
     position: absolute;
     bottom: 0;
     left: 0;
-
 }
 .boton-landing svg{
     width: 20px;
@@ -328,13 +337,13 @@
     .alinea-titulo{
         justify-content: center;
     }
-    .cabecera-pantalla-pequena{
-
+    .llamado-accion p{
+        font-weight: 500;
     }
 }
 @media (max-width: 700px){
     .contenedor-cabecera-pp{
-        background: linear-gradient(120deg,rgba(0,0,0,1) 30%, rgba(255,255,255,.5) 90%), url(/assets/images/cirugia_landing_page_pp.png) center center / cover;
+        background: linear-gradient(120deg,rgba(0,0,0,.7) 50%, rgba(255,255,255,.5) 90%), url(/assets/images/cirugia_landing_page_pp.png) center center / cover;
         height: 70vh;
         overflow: hidden;
         display: grid;
@@ -348,7 +357,6 @@
         padding-right: var(--spacer-xs);
         padding-top: var(--spacer-xs);
     }
-    
     .icono img{
         width: 50px;
     }
@@ -368,7 +376,7 @@
         text-align: center;
     }
     .texto-grande-cabecera h1{
-        padding-bottom: var(--spacer-xl);
+        padding-bottom: var(--spacer-xs);
     }
 
 }

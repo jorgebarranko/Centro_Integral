@@ -16,6 +16,7 @@
 }
 .categorias .categoria p{
   font-size: var(--text-contenido-simple);
+  font-weight: 500;
 }
 .contenedor-preguntas-frecuentes{
   height: min-content;

@@ -6,11 +6,11 @@
 }
 
 .l-spacing p{
-  letter-spacing: .1px;
+  letter-spacing: .01px;
 }
 
 @media (max-width: 900px){
   .l-spacing p{
-    letter-spacing: .5px;
+    letter-spacing: .2px;
 }
   }
