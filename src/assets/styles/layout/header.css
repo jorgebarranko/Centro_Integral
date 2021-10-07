@@ -61,7 +61,6 @@ a:focus{
   font-family: var(--font-2);
 }
 /* ////////////////////////MENU HEADER/////////////////// */
-
 .header {
   display: grid;
   grid-auto-flow: column;
@@ -74,23 +73,19 @@ a:focus{
   gap: 2em;
   margin-top: var(--spacer-l);
 }
-
 .header img{
   display: block;
   width: 170px;
 }
-
 .header-logo{
   cursor: pointer;
   width: 210px;
   position: relative;
   z-index: var(--z-index-logo);
 }
-
 .header-nav-icon{
   display: none;
 }
-
 
 /* ////////////////////////SUB-MENU HEADER/////////////////// */
 .sub-menu{
@@ -107,7 +102,6 @@ a:focus{
   color: inherit;
   text-decoration: none;
 }
-
 .sub-menu ul{
   margin: 0;
   padding: .5em;
@@ -134,8 +128,10 @@ a:focus{
   .header-logo {
     width: 170px;
   }
+  .barra-inicio p{
+    font-size: var(--text-contenido-simple);
+  }
 }
-
 @media (max-width: 700px){
   .header{
     margin-top: var(--spacer-xl);
@@ -158,11 +154,10 @@ a:focus{
     display: flex;
     text-align: left;
     justify-content: space-around;
-
   }
   .frase-inicio-whatsapp-icon p{
     font-family: var(--font-1);
-    font-size: var(--text-contenido-simple-menu);
+    font-size: var(--text-contenido-simple);
   }
   .header-nav-icon {
     margin-left: auto;
@@ -173,7 +168,6 @@ a:focus{
     margin-top: 3px;
     z-index: var(--z-index-navicon);
   }
-
   .menu-principal{
       background-color: var(--secondary-background);
       position: fixed;
@@ -215,26 +209,22 @@ a:focus{
       .hamburger.is-active:hover {
         opacity: 0.7;
       }
-      
       .hamburger.is-active .hamburger-inner,
       .hamburger.is-active .hamburger-inner::before,
       .hamburger.is-active .hamburger-inner::after {
         background-color:var(--secondary-typo-menu-2);
       }
-    
     .hamburger-box {
       width: 40px;
       height: 24px;
       display: inline-block;
       position: relative;
     }
-    
     .hamburger-inner {
       display: block;
       top: 50%;
       margin-top: -2px;
     }
-
       .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
         width: 35px;
         height: 3px;
@@ -250,21 +240,17 @@ a:focus{
         content: "";
         display: block;
       }
-
       .hamburger-inner::before {
         top: -10px;
       }
-
       .hamburger-inner::after {
         bottom: -10px;
       }
 /* ////////////////////////HAMBURGER/////////////////// */
 }
-
 @media (max-width: 500px){
 
 }
-
 @media (max-width: 320px){
 
 }

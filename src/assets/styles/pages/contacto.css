@@ -31,10 +31,10 @@
     padding-bottom: var(--spacer-m);
 }
 .imagen-contacto{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center top;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
 }
 .imagen-insertada{
     background: linear-gradient(90deg,rgba(49, 61, 78, .99) 15%, rgba(49, 61, 78, .1) 90%), url(/assets/images/cita_contact_page.svg) center center / cover;
