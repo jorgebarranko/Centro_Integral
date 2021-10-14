@@ -87,15 +87,6 @@ p {
   font-family: var(--font-2);
   font-weight: 500;
 }
-
-.font-3{
-  font-family: var(--font-3);
-  font-weight: 500;
-}
-.font-4{
-  font-family: var(--font-4);
-  font-weight: 400;
-}
 .font-5{
   font-family: var(--font-5);
 }

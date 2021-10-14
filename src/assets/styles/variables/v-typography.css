@@ -2,10 +2,8 @@ html {
   /* Familias tipográficas */
   --font-1: "Poppins", sans-serif;
   --font-2: "Open Sans", sans-serif;
-  --font-3: "Raleway", sans-serif;
-  --font-4: "Quicksand", sans-serif;
   --font-5: "Lato", sans-serif;
-  --font-6:"Helvetica Neue", sans-serif;
+
 
   /* Variables tipográficas */
   --text-2xs: 10px;
