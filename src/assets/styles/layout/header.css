@@ -16,6 +16,7 @@ a:focus{
 }
   .frase-inicio svg{
     width: 20px;
+    height: auto;
   }
   .envia-mensaje{
     display: flex;
@@ -80,6 +81,7 @@ a:focus{
 .header-logo{
   cursor: pointer;
   width: 210px;
+  height: auto;
   position: relative;
   z-index: var(--z-index-logo);
 }

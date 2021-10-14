@@ -100,6 +100,7 @@
 /* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
 .icono img{
     width: 40px;
+    height: auto;
 }
 .icono{
     display: flex;
