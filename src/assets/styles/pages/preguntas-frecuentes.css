@@ -298,25 +298,3 @@ a:focus{
   margin-top: var(--spacer-m);
 }
 }
-
-@media (max-width: 500px){
-
-}
-
-@media (max-width: 320px){
-    
-}
-
-
-/* .categoria{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: var(--primary-background-body1);
-  border: 2px solid transparent;
-  transition: .2s ease all;
-  padding-top: var(--spacer-s);
-} */

@@ -248,11 +248,5 @@ a:focus{
       .hamburger-inner::after {
         bottom: -10px;
       }
-/* ////////////////////////HAMBURGER/////////////////// */
-}
-@media (max-width: 500px){
-
-}
-@media (max-width: 320px){
-
+/* ////////////////////////END HAMBURGER/////////////////// */
 }
