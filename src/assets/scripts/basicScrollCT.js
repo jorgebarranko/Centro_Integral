@@ -11,8 +11,6 @@ var barrainicio = basicScroll.create({
   });
   barrainicio.start();
 
-
-
   var frase4 = basicScroll.create({
     elem: document.querySelector('.titulo-bloque-center'),
     from: 'top-bottom',
