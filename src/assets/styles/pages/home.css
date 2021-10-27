@@ -112,7 +112,7 @@
     height: auto;
 }
 .icono img{
-    width: 45px;
+    width: 50px;
     height: auto;
 }
 .icono{
@@ -367,7 +367,7 @@
         padding-top: var(--spacer-xs);
     }
     .icono img{
-        width: 50px;
+        width: 55px;
     }
     .alinea-titulo{
         justify-content: center;
