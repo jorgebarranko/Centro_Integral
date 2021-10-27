@@ -367,8 +367,6 @@
         display: none;
     }
     .body-servicios{
-        padding-left: var(--spacer-xs);
-        padding-right: var(--spacer-xs);
         padding-top: var(--spacer-xs);
     }
     .icono img{
