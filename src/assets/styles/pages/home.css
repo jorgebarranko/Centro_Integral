@@ -307,10 +307,6 @@
         .boton-sticky{
             display: none;
         }
-        .body-servicios{
-            padding-right: var(--spacer-s);
-            padding-left: var(--spacer-s);
-        }
         .cabecera-pantalla-grande{
             padding: var(--spacer-l);
         }
