@@ -98,6 +98,18 @@
     transition: all 0.3s;
   }
 /* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
+.titulo-imagen-flex img:hover{
+    transform: translateY(-3px);
+    transition: .3s ease all;
+  }
+.titulo-pop-window{
+    display: flex;
+    gap: var(--spacer-m);
+}
+.titulo-pop-window img{
+    width: 50px;
+    height: auto;
+}
 .icono img{
     width: 45px;
     height: auto;
