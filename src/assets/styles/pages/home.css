@@ -104,10 +104,10 @@
   }
 .titulo-pop-window{
     display: flex;
-    gap: var(--spacer-m);
+    gap: var(--spacer-s);
 }
 .titulo-pop-window img{
-    width: 50px;
+    width: 40px;
     height: auto;
 }
 .icono img{
