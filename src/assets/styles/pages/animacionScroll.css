@@ -35,7 +35,7 @@
  .cont-icon-pop{
     opacity: var(--icon-opacity1);
     opacity: var(--icon-opacity2);
-    transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in;
  }
  /* ////////////////////CIRUGIA REFRACTIVA///////////////// */
  .est-boton-agendacita-cr{
