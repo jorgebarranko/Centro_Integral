@@ -78,3 +78,20 @@ var barrainicio = basicScroll.create({
     }
   });
   frase2.start();
+
+  var iconopacity = basicScroll.create({
+    elem: document.querySelector('.cont-icon-pop'),
+    from: 'top-top',
+    to: 'bottom-top',
+    props: {
+      '--icon-opacity1': {
+        from: .1,
+        to: .8
+      },
+      '--icon-opacity2': {
+        from: .9,
+        to: .1
+      }
+    }
+  });
+  iconopacity.start();

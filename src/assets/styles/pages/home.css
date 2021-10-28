@@ -99,11 +99,10 @@
   }
 /* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
 .cont-icon-pop{
-    opacity: 0;
+    opacity: .1;
     position: relative;
     display: flex;
     justify-content: center;
-    animation: fadeIn 2.5s 2 ease-out;
 }
 .cont-icon-pop:hover{
     opacity: 1;
