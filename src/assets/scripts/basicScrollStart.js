@@ -79,14 +79,14 @@ var barrainicio = basicScroll.create({
   });
   frase2.start();
 
-  var iconopacity = basicScroll.create({
-    elem: document.querySelector('.cont-icon-pop'),
+  var iconopacityne = basicScroll.create({
+    elem: document.querySelector('.icon-ne-scroll'),
     from: 'top-bottom',
     to: 'middle-middle',
     props: {
       '--icon-opacity1': {
         from: 0,
-        to: 1
+        to: .9
       },
       '--icon-opacity2': {
         from: .9,
@@ -94,4 +94,21 @@ var barrainicio = basicScroll.create({
       }
     }
   });
-  iconopacity.start();
+  iconopacityne.start();
+
+  var iconopacitysv = basicScroll.create({
+    elem: document.querySelector('.icon-sv-scroll'),
+    from: 'top-bottom',
+    to: 'middle-middle',
+    props: {
+      '--icon-opacity3': {
+        from: 0,
+        to: .9
+      },
+      '--icon-opacity4': {
+        from: .9,
+        to: 0
+      }
+    }
+  });
+  iconopacitysv.start();

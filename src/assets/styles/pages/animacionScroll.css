@@ -32,10 +32,15 @@
     opacity: var(--frase-opacidad2);
     transition: all .2s linear;
  }
- .cont-icon-pop{
+ .icon-ne-scroll{
     opacity: var(--icon-opacity1);
     opacity: var(--icon-opacity2);
-    transition: all 1s ease-in;
+    transition: all 1s linear;
+ }
+ .icon-sv-scroll{
+   opacity: var(--icon-opacity3);
+   opacity: var(--icon-opacity4);
+   transition: all 1s linear;
  }
  /* ////////////////////CIRUGIA REFRACTIVA///////////////// */
  .est-boton-agendacita-cr{
