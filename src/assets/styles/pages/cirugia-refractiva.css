@@ -59,6 +59,12 @@ h2{
 .contenedor-iconos-seguros img{
     width: 150px;
 }
+.mensaje-cr-pg{
+    display: block;
+}
+.mensaje-cr-pp{
+    display: none;
+}
 .boton-agendacita-cr{
     cursor: pointer;
     border: 0;
@@ -112,5 +118,11 @@ border: 2px solid transparent;
 @media (max-width: 500px){
     .contenedor-iconos-seguros img{
         width: 120px;
+    }
+    .mensaje-cr-pg{
+        display: none;
+    }
+    .mensaje-cr-pp{
+        display: block;
     }
 }
