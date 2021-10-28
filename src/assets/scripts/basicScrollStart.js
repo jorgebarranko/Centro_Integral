@@ -81,12 +81,12 @@ var barrainicio = basicScroll.create({
 
   var iconopacity = basicScroll.create({
     elem: document.querySelector('.cont-icon-pop'),
-    from: 'top-top',
-    to: 'bottom-top',
+    from: 'top-bottom',
+    to: 'middle-middle',
     props: {
       '--icon-opacity1': {
-        from: .1,
-        to: .8
+        from: 0,
+        to: 1
       },
       '--icon-opacity2': {
         from: .9,
