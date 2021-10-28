@@ -90,7 +90,7 @@ var barrainicio = basicScroll.create({
       },
       '--icon-opacity2': {
         from: .9,
-        to: 0
+        to: .1
       }
     }
   });
@@ -107,7 +107,7 @@ var barrainicio = basicScroll.create({
       },
       '--icon-opacity4': {
         from: .9,
-        to: 0
+        to: .1
       }
     }
   });
