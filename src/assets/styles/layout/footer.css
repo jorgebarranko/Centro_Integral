@@ -148,16 +148,16 @@ a:focus{
     .correo-form input[type=date]{
       background-color: var(--caja-formulario);
       border: 1.5px solid var(--border-top);
-   width: 100%;
-  height: var(--spacer-m);
-  appearance: none;
-  -webkit-appearance: none;
-  -ms-appereance: none;
-  -moz-appearance: none;
-  padding: 6px;
-  border-radius: 5px;
-  outline: none;
-  font-family: var(--font-1);
+      width: 100%;
+      height: var(--spacer-m);
+      appearance: none;
+      -webkit-appearance: none;
+      -ms-appereance: none;
+      -moz-appearance: none;
+      padding: 6px;
+      border-radius: 5px;
+      outline: none;
+      font-family: var(--font-1);
 }
     .correo-form input[type=text]:focus,
     .correo-form input[type=tel]:focus,
@@ -187,7 +187,7 @@ a:focus{
   padding-top: var(--spacer-s);
   border: 0;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
   background-color: transparent;
   border-radius: var(--spacer-xs);
   color: var(--secondary-typo-subtitulos);
@@ -196,7 +196,6 @@ a:focus{
   font-size: var(--text-contenido-simple);
   text-align: left;
   transition: .2s ease all;
-  opacity: 0.6;
 }
 .centra-submit{
   display: flex;
@@ -204,8 +203,7 @@ a:focus{
 }
 .boton-enviar-pie:hover{
   cursor: pointer;
-  opacity: 1;
-  font-weight: 400;
+  font-weight: 600;
 }
  /* ////////////////////////MEDIA QUERYS/////////////////// */
 
