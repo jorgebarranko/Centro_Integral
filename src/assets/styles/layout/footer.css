@@ -146,7 +146,7 @@ a:focus{
     .correo-form input[type=tel],
     .correo-form input[type=email],
     .correo-form input[type=date]{
-      background-color: var(--secondary-background);
+      background-color: var(--secondary-typo-10);
       border: 1.5px solid var(--border-top);
    width: 100%;
   height: var(--spacer-m);
@@ -183,7 +183,6 @@ a:focus{
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-
 .boton-enviar-pie{
   padding-top: var(--spacer-s);
   border: 0;
@@ -192,7 +191,7 @@ a:focus{
   background-color: transparent;
   border-radius: var(--spacer-xs);
   color: var(--secondary-typo-subtitulos);
-  font-weight: 300;
+  font-weight: 500;
   font-family: var(--font-1);
   font-size: var(--text-contenido-simple);
   text-align: left;
