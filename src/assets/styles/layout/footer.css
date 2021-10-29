@@ -146,7 +146,7 @@ a:focus{
     .correo-form input[type=tel],
     .correo-form input[type=email],
     .correo-form input[type=date]{
-      background-color: var(--secondary-typo-10);
+      background-color: var(--caja-formulario);
       border: 1.5px solid var(--border-top);
    width: 100%;
   height: var(--spacer-m);
