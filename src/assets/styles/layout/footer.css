@@ -55,10 +55,10 @@ svg:hover #pin-maps{
 }
 .linea-maps{
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .pie-terminos a:hover,
-.linea-maps p:hover,
+.linea-maps a:hover,
 .centro_evaluacion a:hover{
   color: var(--secondary-background-green);
   transition: .3s ease all;
