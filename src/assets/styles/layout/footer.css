@@ -9,15 +9,18 @@
 .caja-contacto h2{
   color: var(--secondary-typo-subtitulos);
 }
+.maps-footer-pg{
+  display: block;
+}
+.maps-footer-pp{
+  display: none;
+}
 ul,
 label,
 .caja-contacto p,
 .color-letra-maps,
 .pie-convenios-subtitle h2{
   color: var(--primary-background-body1);
-}
-.icono-maps{
-  width: 30px;
 }
 .logo-cio img{
   width: 180px;
@@ -228,6 +231,12 @@ a:focus{
 @media (max-width: 500px){
   .pie-seguros img{
     width: 65px;
+  }
+  .maps-footer-pg{
+    display: none;
+  }
+  .maps-footer-pp{
+    display: block;
   }
 }
 @media (max-width: 320px){
