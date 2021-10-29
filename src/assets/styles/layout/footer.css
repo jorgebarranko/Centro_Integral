@@ -1,3 +1,11 @@
+/* Screen sizes:
+  default: all
+  intermediate: <1350px
+  md: <900px
+  sm: <700px
+  xs: <500px
+  xxs: <320px
+*/
 .fondo-contacto{
   height: min-content;
   background-color: var(--secondary-background);
