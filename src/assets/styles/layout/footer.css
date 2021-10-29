@@ -206,7 +206,6 @@ a:focus{
   font-weight: 600;
 }
  /* ////////////////////////MEDIA QUERYS/////////////////// */
-
 @media (max-width: 1350px){
   .caja-contacto p{
     text-align: justify;
