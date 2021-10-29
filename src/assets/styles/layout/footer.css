@@ -10,9 +10,15 @@
   color: var(--secondary-typo-subtitulos);
 }
 .maps-footer-pg{
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
   display: block;
 }
 .maps-footer-pp{
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
   display: none;
 }
 .maps-pin-icon{
