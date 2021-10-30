@@ -178,6 +178,12 @@
     height: min-content;
 }
 /* ////////////////////SERVICIOS///////////////// */
+.benefits{
+    cursor: pointer;
+}
+.titulo-blq-saludvisual a:hover{
+    text-decoration: underline;
+}
 .titulo-blq-serv{
     overflow: hidden;
 }
