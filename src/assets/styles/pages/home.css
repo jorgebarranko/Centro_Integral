@@ -424,6 +424,7 @@
     .alinea-titulo{
         justify-content: center;
         flex-direction: column;
+        padding-bottom: 1em;
     }
     .marcador-empresas-pg{
         display: none;
