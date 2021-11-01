@@ -186,7 +186,7 @@
     cursor: pointer;
 }
 .titulo-blq-saludvisual span:hover{
-    background-color: var(--secondary-background-green);
+    background-color: var(--secondary-medical);
 }
 .titulo-blq-serv{
     overflow: hidden;
