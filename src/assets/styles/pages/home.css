@@ -113,10 +113,12 @@
     border-radius: 5px 0px 0px 5px;
 }
 .suma-icon{
-    padding-left: .5em;
     color: var(--primary-background-body1);
     background-color: var(--secondary-background-yellow);
-    padding: var(--spacer-xs);
+    padding-top: var(--spacer-xs);
+    padding-bottom: var(--spacer-xs);
+    padding-right: var(--spacer-s);
+    padding-left: var(--spacer-s);
     border-radius: 0px 5px 5px 0px;
 }
 .marcador-empresas-pp{
@@ -347,7 +349,6 @@
     color: var(--primary-background-body1);
     border: 2px solid transparent;
     }
-
 /* ////////////////////MEDIA QUERYS///////////////// */
 @media (max-width: 1350px){
     .tarjetas-servicios{
