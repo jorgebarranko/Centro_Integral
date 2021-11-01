@@ -103,10 +103,10 @@ var barrainicio = basicScroll.create({
     props: {
       '--icon-opacity3': {
         from: 0,
-        to: .9
+        to: 1
       },
       '--icon-opacity4': {
-        from: .9,
+        from: 1,
         to: .1
       }
     }

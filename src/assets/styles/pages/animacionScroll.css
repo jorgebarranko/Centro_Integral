@@ -40,7 +40,7 @@
  .icon-sv-scroll{
    opacity: var(--icon-opacity3);
    opacity: var(--icon-opacity4);
-   transition: all 1s linear;
+   transition: all .5s linear;
  }
  /* ////////////////////CIRUGIA REFRACTIVA///////////////// */
  .est-boton-agendacita-cr{

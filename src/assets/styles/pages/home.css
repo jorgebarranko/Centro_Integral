@@ -97,9 +97,49 @@
     transition: all 0.3s;
   }
 /* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
+.marcador-empresas-pg{
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    display: block;
+}
+.boton-benefits{
+    border-right: 1.5px solid var(--primary-background-body1);
+    padding-right: .5em;
+    color: var(--primary-background-body1);
+    background-color: var(--secondary-background-yellow);
+    padding: var(--spacer-xs);
+    border-radius: 5px 0px 0px 5px;
+}
+.suma-icon{
+    padding-left: .5em;
+    color: var(--primary-background-body1);
+    background-color: var(--secondary-background-yellow);
+    padding: var(--spacer-xs);
+    border-radius: 0px 5px 5px 0px;
+}
+.marcador-empresas-pp{
+    display: none;
+}
+.suma-icon svg{
+    width: 11px;
+    height: auto;
+}
+
+.suma-icon svg:hover{
+        transform: rotate(120deg);
+}
+.benefits{
+    cursor: pointer;
+}
+.marcador-empresas-pg span:hover,
+.marcador-empresas-pp span:hover{
+    background-color: var(--secondary-medical);
+    color: var(--primary-background-body1);
+}
 .cont-icon-pop{
-    opacity: .1;
-    position: relative;
+    font-size: 11px;
     display: flex;
     justify-content: center;
 }
@@ -107,12 +147,14 @@
     opacity: 1;
 }
 .pop-up-pie-icon img{
-    width: 20px;
+    width: 16px;
     height: auto;
 }
 .pop-up-pie-icon{
     cursor: pointer;
-    position: absolute;
+    display: flex;
+    gap: .5em;
+    align-items: center;
 }
 .titulo-imagen-flex img:hover{
     transform: translateY(-3px);
@@ -150,20 +192,6 @@
     align-items: center;
     gap: 10px;
 }
-.marcador-empresas-pg{
-    cursor: pointer;
-    text-align: center;
-    font-weight: 500;
-    font-size: 11px;
-    color: var(--primary-background-body1);
-    background-color: var(--secondary-background-yellow);
-    padding: var(--spacer-xs);
-    border-radius: 5px;
-    display: block;
-}
-.marcador-empresas-pp{
-    display: none;
-}
 .contenedor-nuestro-equipo p,
 .contenedor-salud-visual p{
     color: var(--secondary-typo-7);
@@ -182,13 +210,6 @@
     height: min-content;
 }
 /* ////////////////////SERVICIOS///////////////// */
-.benefits{
-    cursor: pointer;
-}
-.titulo-blq-saludvisual a:hover{
-    background-color: var(--secondary-medical);
-    color: var(--primary-background-body1);
-}
 .titulo-blq-serv{
     overflow: hidden;
 }
@@ -411,10 +432,6 @@
         text-align: center;
         font-weight: 500;
         font-size: 11px;
-        color: var(--primary-background-body1);
-        background-color: var(--secondary-background-yellow);
-        padding: var(--spacer-xs);
-        border-radius: 5px;
         display: block;
     }
 }
