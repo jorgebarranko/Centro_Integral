@@ -4,15 +4,15 @@
     "name": "Inicio"
   },
   {
+    "url": "#link-centro-integral",
+    "name": "CIO"
+  },
+  {
     "url": "#link-nuestro-equipo",
-    "name": "Nuestro Equipo"
+    "name": "nuestro equipo"
   },
   {
-    "url": "#link-servicios",
-    "name": "Servicios"
-  },
-  {
-    "url": "#link-salud-visual-int",
-    "name": "Salud Visual"
+    "url": "#link-cr",
+    "name": "cirugía laser"
   }
 ]

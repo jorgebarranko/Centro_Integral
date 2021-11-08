@@ -1,18 +1,14 @@
 [ 
   {
+    "url": "#link-centro-integral",
+    "name": "CIO"
+  },
+  {
     "url": "#link-nuestro-equipo",
     "name": "Nuestro equipo"
   },
   {
-    "url": "#link-servicios",
-    "name": "Servicios"
-  },
-  {
-    "url": "#link-salud-visual-int",
-    "name": "Salud Visual"
-  },
-  {
-    "url": "#pie-de-pagina",
-    "name": "Acerca de nosotros"
+    "url": "#link-cr",
+    "name": "Cirugía laser"
   }
 ]

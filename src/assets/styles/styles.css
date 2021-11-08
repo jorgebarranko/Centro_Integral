@@ -24,6 +24,7 @@
 /* Pages */
 @import url("pages/home.css"); 
 @import url("pages/cirugia-refractiva.css");
+@import url("pages/servicios.css");
 @import url("pages/contacto.css");
 @import url("pages/preguntas-frecuentes.css");
 @import url("pages/animacionScroll.css");

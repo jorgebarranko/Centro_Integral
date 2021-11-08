@@ -40,25 +40,6 @@ h2{
     display: flex;
     align-items: center;
 }
-.contenedor-aseguradoras{
-    height: min-content;
-    padding-bottom: var(--spacer-l);
-}
-
-.contenedor-iconos-seguros{
-    margin-top: var(--spacer-m);
-    border-radius: 5px;
-    background-color: var(--background-blue45);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    justify-items: center;
-    gap: var(--spacer-m);
-    padding-bottom: var(--spacer-m);
-    padding-top: var(--spacer-m);
-}
-.contenedor-iconos-seguros img{
-    width: 150px;
-}
 .mensaje-cr-pg{
     display: block;
 }
@@ -98,6 +79,27 @@ box-shadow: var(--sombra);
 color: var(--primary-background-body1);
 border: 2px solid transparent;
 }
+/* ////////////////////ASEGURADORAS///////////////// */
+.contenedor-aseguradoras{
+    height: min-content;
+    padding-bottom: var(--spacer-l);
+}
+
+.contenedor-iconos-seguros{
+    margin-top: var(--spacer-m);
+    border-radius: 5px;
+    background-color: var(--background-blue45);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+    gap: var(--spacer-m);
+    padding-bottom: var(--spacer-m);
+    padding-top: var(--spacer-m);
+}
+.contenedor-iconos-seguros img{
+    width: 150px;
+}
+/* ////////////////////MEDIA QUERYS///////////////// */
 @media (max-width: 900px){
     .contenedor-iconos-seguros{
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

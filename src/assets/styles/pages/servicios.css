@@ -1,0 +1,342 @@
+/* Screen sizes:
+  default: all
+  intermediate: <1350px
+  md: <900px
+  sm: <700px
+  xs: <500px
+  xxs: <320px
+*/
+/* ////////////////////NUESTRO EQUIPO / SALUD VISUAL INTEGRAL///////////////// */
+.marcador-empresas-pg{
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    display: block;
+}
+.boton-benefits{
+    border-right: 1.5px solid var(--primary-background-body1);
+    padding-right: .5em;
+    color: var(--primary-background-body1);
+    background-color: var(--secondary-background-yellow);
+    padding: var(--spacer-xs);
+    border-radius: 5px 0px 0px 5px;
+}
+.suma-icon{
+    color: var(--primary-background-body1);
+    background-color: var(--secondary-background-yellow);
+    padding-top: var(--spacer-xs);
+    padding-bottom: var(--spacer-xs);
+    padding-right: var(--spacer-s);
+    padding-left: var(--spacer-s);
+    border-radius: 0px 5px 5px 0px;
+}
+.marcador-empresas-pp{
+    display: none;
+}
+.suma-icon svg{
+    width: 11px;
+    height: auto;
+}
+
+.suma-icon svg:hover{
+        transform: rotate(120deg);
+}
+.benefits{
+    cursor: pointer;
+}
+.marcador-empresas-pg span:hover,
+.marcador-empresas-pp span:hover{
+    background-color: var(--secondary-medical);
+    color: var(--primary-background-body1);
+}
+.cont-icon-pop{
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+.cont-icon-pop:hover{
+    opacity: 1;
+}
+.pop-up-pie-icon img{
+    width: 16px;
+    height: auto;
+}
+.pop-up-pie-icon{
+    cursor: pointer;
+    display: flex;
+    gap: .5em;
+}
+.titulo-imagen-flex img:hover{
+    transform: translateY(-3px);
+    transition: .3s ease all;
+  }
+.titulo-pop-window{
+    display: flex;
+    gap: var(--spacer-s);
+    align-items: flex-start;
+}
+.titulo-pop-window img{
+    width: 35px;
+    height: auto;
+}
+.icono img{
+    width: 50px;
+    height: auto;
+}
+.icono{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.col-12 h1{
+    color: var(--primary-typo-4);
+}
+.titulo-blq-neq{
+    overflow: hidden;
+}
+.titulo-blq-saludvisual{
+    overflow: hidden;
+}
+.alinea-titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contenedor-nuestro-equipo p,
+.contenedor-salud-visual p{
+    color: var(--secondary-typo-7);
+}
+.contenedor-nuestro-equipo h2{
+    font-family: var(--font-1);
+    font-weight: 600;
+    color: var(--secondary-typo-1);
+    font-size: var(--text-title-cont);
+    line-height: var(--spacer-l);
+}
+.contenedor-nuestro-equipo{
+    height: 100vh;
+}
+.contenedor-salud-visual{
+    height: min-content;
+}
+/* ////////////////////SERVICIOS///////////////// */
+.titulo-blq-serv{
+    overflow: hidden;
+}
+.contenedor-servicios{
+    background: linear-gradient(120deg,rgba(240, 247, 255, .7) 50%, rgba(240, 247, 255, .7) 50%), url(/assets/images/quirofano_background.svg) center center / cover;
+    height: min-content;
+    padding-top: var(--spacer-m);
+    padding-bottom: var(--spacer-l);
+    margin-bottom: 3em;
+}
+.contenedor-servicios p{
+    color: var(--secondary-typo-7);
+}
+.tarjetas-servicios{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: var(--spacer-m);
+}
+.tarjeta{
+    position: relative;
+    border: 0;
+    padding: 0;
+    background-color: var(--primary-background-body1);
+    border-radius: var(--spacer-s);
+    box-shadow: var(--sombra);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: .3s ease all;
+}
+.titulo-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: -webkit-fill-available;
+    height: 120px;
+    background-color: transparent;
+    padding-left: var(--spacer-l);
+    padding-right: var(--spacer-l);
+}
+.body-servicios{
+    display: flex;
+    flex-grow: 1;
+    padding-right: var(--spacer-m);
+    padding-left: var(--spacer-m);
+    padding-bottom: var(--spacer-m);
+    padding-top: var(--spacer-s);
+}
+.est-pie-serv{
+    display: flex;
+    justify-content: center;    background-color: var(--secondary-background);
+    border-bottom-right-radius: var(--spacer-s);
+    border-bottom-left-radius: var(--spacer-s);
+}
+.boton-pie-servicios svg{
+    width: 9px;
+}
+.boton-pie-servicios{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+.titulo-servicios h1{
+    font-family: var(--font-1);
+    text-align: center;
+    font-size: var(--text-tajetas);
+    font-weight: 600;
+    color: var(--primary-typo-4);
+}
+.body-servicios p{
+    font-family: var(--font-1);
+    text-align: center;
+    font-weight: 400;
+    font-size: var(--text-contenido-simple);
+}
+.boton-pie-servicios p{
+    font-family: var(--font-1);
+    font-size: var(--text-contenido-simple-menu);
+    text-align: center;
+    font-weight: 500;
+    color: var(--primary-background-body1);
+}
+.boton-pie-servicios p{
+    padding-top: var(--spacer-s);
+}
+.titulo-servicios img{
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contenedor-servicios .tarjeta:hover{
+    transform: translateY(-6px);
+    background-color: var(--primary-typo-6);
+    box-shadow: var(--sombra-form);
+}
+.contenedor-servicios .tarjeta:hover .titulo-servicios h1,
+.contenedor-servicios .tarjeta:hover .body-servicios p{
+    color: var(--primary-background-body1);
+}
+.contenedor-servicios .tarjeta:hover .boton-pie-servicios p{
+    color: var(--primary-typo-6);
+}
+.est-boton-saludv{
+    display: flex;
+    justify-self: center;
+    margin-top: var(--spacer-l);
+    margin-bottom: var(--spacer-l);
+}
+.boton-saludv{
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background-color: transparent;
+    border-radius: var(--spacer-m);
+    border: 2px solid var(--secondary-typo-1);
+    font-size: var(--text-contenido-simple-menu);
+    font-weight: 500;
+    font-family: var(--font-1);
+    box-shadow: var(--sombra-boton-verde);
+    color: var(--primary-background-button);
+    transition: .2s ease all;
+    overflow: hidden;
+    padding: var(--spacer-s);
+}
+.boton-saludv svg{
+    width: 20px;
+}
+.boton-saludv:hover{
+    background-color: var(--primary-typo-4);
+    box-shadow: var(--sombra);
+    color: var(--primary-background-body1);
+    border: 2px solid transparent;
+    }
+/* ////////////////////MEDIA QUERYS///////////////// */
+@media (max-width: 1350px){
+    .tarjetas-servicios{
+        grid-gap: var(--spacer-m);
+    }
+
+        .titulo-servicios img{
+            width: 100px;
+        }
+        .boton-sticky{
+            display: none;
+        }
+  }
+@media (max-width: 900px){
+    h2{
+        line-height: var(--spacer-m);
+    }
+    .apila-subtitulo{
+        align-items: flex-start;
+        flex-direction: column;
+        padding-bottom: var(--spacer-s);
+        gap: var(--spacer-xs);
+    }
+    .cita-definicion{
+        font-size: var(--text-xs);
+    }
+    .caja{
+         padding-left: 0;
+         padding-right: 0;
+    }
+    .titulo-bloque-center{
+        text-align: center;
+    }
+    .contenedor-nuestro-equipo{
+        height: min-content;
+        text-align: center;
+    }
+    .contenedor-servicios{
+        text-align: center;
+    }
+    .contenedor-salud-visual{
+        text-align: center;
+    }
+    .texto-grande-cabecera h1{
+        padding-bottom: var(--spacer-m);
+    }
+    .alinea-titulo{
+        justify-content: center;
+    }
+    .llamado-accion p{
+        font-weight: 500;
+    }
+}
+@media (max-width: 700px){
+    .body-servicios{
+        padding-top: var(--spacer-xs);
+    }
+    .icono img{
+        width: 55px;
+    }
+    .alinea-titulo{
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+    .marcador-empresas-pg{
+        display: none;
+    }
+    .marcador-empresas-pp{
+        text-align: center;
+        font-weight: 500;
+        font-size: 11px;
+        display: block;
+    }
+    .cont-icon-pop{
+        font-size: 13px;
+    }
+}
+@media (max-width: 500px){
+}
+
+/* //////////////////// CORTE ///////////////// */

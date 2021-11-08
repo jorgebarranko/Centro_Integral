@@ -68,7 +68,10 @@ p {
   font-family: var(--font-1);
   font-weight: 600;
 }
-
+.font1-500{
+  font-family: var(--font-1);
+  font-weight: 500;
+}
 .font-contenido-simple {
   font-family: var(--font-1);
   font-weight: 400;
