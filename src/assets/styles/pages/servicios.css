@@ -35,12 +35,8 @@
     display: none;
 }
 .suma-icon svg{
-    width: 11px;
+    width: 12px;
     height: auto;
-}
-
-.suma-icon svg:hover{
-        transform: rotate(120deg);
 }
 .benefits{
     cursor: pointer;
@@ -71,6 +67,11 @@
     transform: translateY(-3px);
     transition: .3s ease all;
   }
+  .titulo-imagen-flex{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 .titulo-pop-window{
     display: flex;
     gap: var(--spacer-s);
@@ -85,8 +86,6 @@
     height: auto;
 }
 .icono{
-    display: flex;
-    justify-content: center;
     cursor: pointer;
 }
 .col-12 h1{

@@ -27,7 +27,6 @@ body {
 }
 @media (max-width: 900px){
   .espaciado-bloques{
-    padding-top: 5em;
       padding-top: 3em;
       margin-bottom: 2em;
   }

@@ -11,6 +11,7 @@ var barrainicio = basicScroll.create({
   });
   barrainicio.start();
   
+    
   var cabecera = basicScroll.create({
     elem: document.querySelector('.cabecera-pantalla-grande'),
     from: 'middle-middle',
@@ -28,87 +29,53 @@ var barrainicio = basicScroll.create({
   });
   cabecera.start();
 
-  var frase1 = basicScroll.create({
-    elem: document.querySelector('.titulo-blq-neq'),
+  var GOTCIO = basicScroll.create({
+    elem: document.querySelector('.contenedor-nosotros'),
     from: 'top-bottom',
-    to: 'middle-middle',
+    to: 'bottom-bottom',
     props: {
-      '--frase-bloque1': {
-        from: '10%',
+      '--position-left': {
+        from: '-60%',
         to: '0'
       },
-      '--frase-opacidad1': {
+      '--letters-group-opacity': {
         from: 0,
         to: 1
       }
     }
   });
-  frase1.start();
+  GOTCIO.start();
 
-  var frase3 = basicScroll.create({
-    elem: document.querySelector('.titulo-blq-serv'),
+  var GOTNE = basicScroll.create({
+    elem: document.querySelector('.contenedor-index-ne'),
     from: 'top-bottom',
-    to: 'middle-middle',
+    to: 'bottom-bottom',
     props: {
-      '--frase-bloque3': {
-        from: '10%',
+      '--position-right': {
+        from: '60%',
         to: '0'
       },
-      '--frase-opacidad3': {
+      '--letters-group-opacity-ne': {
         from: 0,
         to: 1
       }
     }
   });
-  frase3.start();
+  GOTNE.start();
 
-  var frase2 = basicScroll.create({
-    elem: document.querySelector('.titulo-blq-saludvisual'),
+  var GOTCR = basicScroll.create({
+    elem: document.querySelector('.contenedor-cr'),
     from: 'top-bottom',
-    to: 'middle-middle',
+    to: 'bottom-bottom',
     props: {
-      '--frase-bloque2': {
-        from: '10%',
+      '--position-left-cr': {
+        from: '-60%',
         to: '0'
       },
-      '--frase-opacidad2': {
+      '--letters-group-opacity-cr': {
         from: 0,
         to: 1
       }
     }
   });
-  frase2.start();
-
-  var iconopacityne = basicScroll.create({
-    elem: document.querySelector('.icon-ne-scroll'),
-    from: 'top-bottom',
-    to: 'middle-middle',
-    props: {
-      '--icon-opacity1': {
-        from: 0,
-        to: .9
-      },
-      '--icon-opacity2': {
-        from: .9,
-        to: .1
-      }
-    }
-  });
-  iconopacityne.start();
-
-  var iconopacitysv = basicScroll.create({
-    elem: document.querySelector('.icon-sv-scroll'),
-    from: 'top-bottom',
-    to: 'middle-middle',
-    props: {
-      '--icon-opacity3': {
-        from: 0,
-        to: 1
-      },
-      '--icon-opacity4': {
-        from: 1,
-        to: .1
-      }
-    }
-  });
-  iconopacitysv.start();
+  GOTCR.start();

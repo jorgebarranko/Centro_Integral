@@ -106,10 +106,14 @@
 h1{
     color: var(--primary-typo-7);
 }
-.contenedor-nosotros p{
+.contenedor-nosotros p,
+.contenedor-index-ne p,
+.contenedor-cr p{
     color: var(--secondary-typo-7);
 }
-.contenedor-nosotros{
+.contenedor-nosotros,
+.contenedor-index-ne,
+.contenedor-cr{
     height: 80vh;
 }
 h2{
@@ -124,16 +128,6 @@ h2{
     width: 100%;
     object-fit: cover;
     object-position: center center;
-}
-.imagen-nosotros-ne{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-.imagen-nosotros{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
 }
 .mensaje-nos-pg{
     display: block;
@@ -178,25 +172,21 @@ border: 2px solid transparent;
     width: 12px;
 }
 .cont-vermas{
+    color: var(--secondary-typo-7);
     display: flex;
 }
+.cont-vermas .est-vermas:hover{
+    opacity: 1;
+    transition: .5s ease all;
+}
 .est-vermas{
-    font-size: 11px;
     gap: 1em;
     display: flex;
     cursor: pointer;
+    opacity: .6;
 }
 /* ////////////////////NUESRO EQUIPO///////////////// */
-.imagen-ne img{
-    height: 70%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center center;
-}
-.imagen-ne{
-    display: flex;
-    flex-direction: column;
-}
+
 /* ////////////////////MENSAJES///////////////// */
 .fondo-color{
     height: min-content;

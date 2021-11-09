@@ -17,6 +17,28 @@
     transform: translateY(var(--position));
     transition: transform .3s linear;
  }
+ .contenedor-nosotros p,
+ .contenedor-nosotros h1,
+ .contenedor-nosotros a{
+      transform: translateX(var(--position-left));
+      opacity: var(--letters-group-opacity);
+      transition: transform .3s linear;
+ }
+ .contenedor-index-ne p,
+ .contenedor-index-ne h1,
+ .contenedor-index-ne a{
+   transform: translateX(var(--position-right));
+   opacity: var(--letters-group-opacity-ne);
+   transition: transform .3s linear;
+ }
+ .contenedor-cr p,
+ .contenedor-cr h1,
+ .contenedor-cr a{
+   transform: translateX(var(--position-left-cr));
+   opacity: var(--letters-group-opacity-cr);
+   transition: transform .3s linear;
+ }
+ /* ////////////////////PAGINA SERVICIOS///////////////// */
  .titulo-blq-neq p{
     transform: translateX(var(--frase-bloque1));
     opacity: var(--frase-opacidad1);
