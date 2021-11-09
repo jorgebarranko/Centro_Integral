@@ -129,10 +129,7 @@ h2{
     object-fit: cover;
     object-position: center center;
 }
-.imagen-nosotros{
-    height: min-content;
-    padding-bottom: 5em;
-}
+
 .mensaje-nos-pg{
     display: block;
 }
@@ -238,6 +235,9 @@ border: 2px solid transparent;
     }
     .linea{
         display: none;
+    }
+    .imagen-nosotros{
+        height: min-content;
     }
 }
 @media (max-width: 700px){
