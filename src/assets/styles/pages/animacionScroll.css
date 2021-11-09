@@ -12,11 +12,6 @@
    transition: transform .3s linear;
 }
 /* ////////////////////PAGINA INICIO///////////////// */
-.cabecera-pantalla-grande {
-    opacity: var(--home-title-opacity);
-    transform: translateY(var(--position));
-    transition: transform .3s linear;
- }
  .contenedor-nosotros p,
  .contenedor-nosotros h1,
  .contenedor-nosotros a{

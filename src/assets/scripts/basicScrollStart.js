@@ -10,24 +10,6 @@ var barrainicio = basicScroll.create({
     }
   });
   barrainicio.start();
-  
-    
-  var cabecera = basicScroll.create({
-    elem: document.querySelector('.cabecera-pantalla-grande'),
-    from: 'middle-middle',
-    to: 'bottom-top',
-    props: {
-      '--position': {
-        from: '0',
-        to: '-60%'
-      },
-      '--home-title-opacity': {
-        from: 1,
-        to: 0
-      }
-    }
-  });
-  cabecera.start();
 
   var GOTCIO = basicScroll.create({
     elem: document.querySelector('.contenedor-nosotros'),
