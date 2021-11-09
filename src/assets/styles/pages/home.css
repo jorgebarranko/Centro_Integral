@@ -97,6 +97,11 @@
     transition: all 0.3s;
   }
 /* ////////////////////NOSOTROS///////////////// */
+.contenedor-nosotros,
+.contenedor-index-ne,
+.contenedor-cr{
+    overflow: hidden;
+}
 .linea{
     display: inline;
 }
