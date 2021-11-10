@@ -97,6 +97,9 @@
     transition: all 0.3s;
   }
 /* ////////////////////NOSOTROS///////////////// */
+.link-mensaje-accion{
+    cursor: pointer;
+}
 .imagen-nosotros:hover img{
     transform: scale(1.01);
 }
