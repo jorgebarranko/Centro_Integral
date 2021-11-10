@@ -97,6 +97,15 @@
     transition: all 0.3s;
   }
 /* ////////////////////NOSOTROS///////////////// */
+.imagen-nosotros:hover img{
+    transform: scale(1.01);
+}
+.est-link-img{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    height: auto;
+}
 .contenedor-nosotros,
 .contenedor-index-ne,
 .contenedor-cr{
@@ -119,7 +128,7 @@ h1{
 .contenedor-nosotros,
 .contenedor-index-ne,
 .contenedor-cr{
-    height: 80vh;
+    height: 90vh;
 }
 h2{
     font-family: var(--font-1);

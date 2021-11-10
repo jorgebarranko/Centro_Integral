@@ -13,22 +13,19 @@
 }
 /* ////////////////////PAGINA INICIO///////////////// */
  .contenedor-nosotros p,
- .contenedor-nosotros h1,
- .contenedor-nosotros a{
+ .contenedor-nosotros h1{
       transform: translateX(var(--position-left));
       opacity: var(--letters-group-opacity);
       transition: transform .3s linear;
  }
  .contenedor-index-ne p,
- .contenedor-index-ne h1,
- .contenedor-index-ne a{
+ .contenedor-index-ne h1{
    transform: translateX(var(--position-right));
    opacity: var(--letters-group-opacity-ne);
    transition: transform .3s linear;
  }
  .contenedor-cr p,
- .contenedor-cr h1,
- .contenedor-cr a{
+ .contenedor-cr h1{
    transform: translateX(var(--position-left-cr));
    opacity: var(--letters-group-opacity-cr);
    transition: transform .3s linear;

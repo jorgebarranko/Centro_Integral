@@ -277,15 +277,13 @@ h2{
     background-color: rgba(121, 132, 182, 0.25);
     transition: opacity 0.5s;
 }
-.imagen-1-pgde:hover .mapa-overlay,
-.imagen-1-ppeq:hover .mapa-overlay{
+.imagen-1-pgde:hover .mapa-overlay{
     opacity: 1;
 }
 .imagen-1-pgde:hover img{
     transform: scale(1.05);
 }
-.imagen-1-pgde:hover,
-.imagen-1-ppeq:hover{
+.imagen-1-pgde:hover{
     cursor: pointer;
 }
 .titulo_etiqueta{
