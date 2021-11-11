@@ -37,7 +37,7 @@
     object-position: center top;
 }
 .imagen-insertada{
-    background: linear-gradient(90deg,rgba(49, 61, 78, .99) 15%, rgba(49, 61, 78, .1) 90%), url(/assets/images/cita_contact_page_small.png) center center / cover;
+    background: linear-gradient(90deg,rgba(49, 61, 78, .99) 15%, rgba(49, 61, 78, .1) 90%), url(/assets/images/date_contact_page.svg) center center / cover;
 }
 .est-boton-baja{
     display: flex;
