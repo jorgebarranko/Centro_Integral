@@ -262,7 +262,6 @@
     .tarjetas-servicios{
         grid-gap: var(--spacer-m);
     }
-
         .titulo-servicios img{
             width: 100px;
         }

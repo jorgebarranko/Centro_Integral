@@ -244,12 +244,22 @@ a:focus{
     display: flex;
     flex-direction: column;
 }
-
 /* ////////////////////MEDIA QUERYS///////////////// */
 @media (max-width: 1350px){
-    
+    .boton-sticky{
+        display: none;
+    }
+    .cabecera-pantalla-grande{
+        padding: var(--spacer-l);
+    }
   }
 @media (max-width: 900px){
+    h2{
+        line-height: var(--spacer-m);
+    }
+    .llamado-accion p{
+        font-weight: 500;
+    }
     .group-text-ne{
         order: -1;
     }
@@ -261,6 +271,39 @@ a:focus{
     }
 }
 @media (max-width: 700px){
+    .contenedor-cabecera-pp{
+        background: linear-gradient(120deg,rgba(0,0,0,.7) 50%, rgba(255,255,255,.5) 90%), url(/assets/images/cirugia_landing_page_pp.png) center center / cover;
+        height: 70vh;
+        overflow: hidden;
+        display: grid;
+        align-content: center;
+    }
+    .contenedor-cabecera-pg{
+        display: none;
+    }
+    .body-servicios{
+        padding-top: var(--spacer-xs);
+    }
+    .icono img{
+        width: 55px;
+    }
+    .alinea-titulo{
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+    .marcador-empresas-pg{
+        display: none;
+    }
+    .marcador-empresas-pp{
+        text-align: center;
+        font-weight: 500;
+        font-size: 11px;
+        display: block;
+    }
+    .cont-icon-pop{
+        font-size: 13px;
+    }
     .mensaje-nos-pg{
         display: none;
     }
@@ -276,4 +319,13 @@ a:focus{
     }
 }
 @media (max-width: 500px){
+    .cuadra-boton-landing{
+        padding: var(--spacer-s);
+    }
+    .boton-agendacita{
+         margin-right: 0em;
+    }
+    .texto-grande-cabecera h1{
+        padding-bottom: var(--spacer-xs);
+    }
 }
