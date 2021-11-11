@@ -225,7 +225,11 @@ h2{
     overflow: hidden;
 }
 .icono-de-mapas-color img{
-    width: 90px;
+    width: 80px;
+}
+.icono-de-mapas-color img:hover{
+    transform: translateY(-2px);
+    transition: .3s ease all;
 }
 .icono-de-mapas-color{
     display: block;
