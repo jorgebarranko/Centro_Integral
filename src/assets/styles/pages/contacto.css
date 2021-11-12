@@ -363,7 +363,7 @@ h2{
         background-repeat: no-repeat;
         background-position: center right;
         background-size: 1.5em auto;
-        background-color: transparent;
+        background-color: var(--primary-background-body1);
         border: 1.5px solid var(--background-blue);
         opacity: .9;
         padding: 6px;
