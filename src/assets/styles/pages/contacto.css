@@ -341,7 +341,6 @@ h2{
         -webkit-appearance: none;
         -ms-appereance: none;
         -moz-appearance: none;
-        background: none;
         background-color: var(--primary-background-body1);
         border: 1.5px solid var(--background-blue);
         opacity: .5;
