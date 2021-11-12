@@ -74,6 +74,12 @@ box-shadow: var(--sombra);
 color: var(--primary-background-body1);
 border: 2px solid transparent;
 }
+.mensaje-cr-pg{
+    display: block;
+}
+.mensaje-cr-pp{
+    display: none;
+}
 /* ////////////////////ASEGURADORAS///////////////// */
 .contenedor-aseguradoras{
     height: min-content;
@@ -110,13 +116,19 @@ border: 2px solid transparent;
     .contenedor-aseguradoras{
         text-align: center;
     }
+    .mensaje-cr-pg{
+        display: none;
+    }
+    .mensaje-cr{
+        display: block;
+    }
+    .mensaje-cr-pp{
+        display: block;
+    }
 }
 
 @media (max-width: 500px){
     .contenedor-iconos-seguros img{
         width: 120px;
-    }
-    .mensaje-cr-pp{
-        order: -1;
     }
 }
