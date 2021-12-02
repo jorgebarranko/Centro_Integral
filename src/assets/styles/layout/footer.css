@@ -41,6 +41,12 @@ label,
 .icono-redes{
   width: 35px;
 }
+.large-screen{
+  display: block;
+}
+.small-screen{
+  display: none;
+}
 svg:hover #fb,
 svg:hover #ig,
 svg:hover #lk,
@@ -228,6 +234,12 @@ a:focus{
 @media (max-width: 900px){
   .fondo-contacto{
     padding-top: var(--spacer-s);
+  }
+  .large-screen{
+    display: none;
+  }
+  .small-screen{
+    display: block;
   }
 }
 @media (max-width: 700px){
