@@ -81,6 +81,9 @@ border: 2px solid transparent;
     display: none;
 }
 /* ////////////////////ASEGURADORAS///////////////// */
+.mensaje-aseguradoras-pg{
+    display: block;
+}
 .contenedor-aseguradoras{
     height: min-content;
     padding-bottom: var(--spacer-l);
@@ -128,6 +131,9 @@ border: 2px solid transparent;
 }
 
 @media (max-width: 500px){
+    .mensaje-aseguradoras-pg{
+        display: none;
+    }
     .contenedor-iconos-seguros img{
         width: 120px;
     }
