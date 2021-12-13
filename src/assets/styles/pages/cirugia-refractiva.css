@@ -81,6 +81,13 @@ border: 2px solid transparent;
     display: none;
 }
 /* ////////////////////ASEGURADORAS///////////////// */
+.contenedor-aseguradoras a,
+a:visited,
+a:hover,
+a:focus{
+  color: inherit;
+  text-decoration: none;
+}
 .mensaje-aseguradoras-pg{
     display: block;
 }
