@@ -4,15 +4,15 @@
     "name": "Inicio"
   },
   {
-    "url":"#link-medios-contacto",
+    "url":"#medios-contacto",
     "name":"Medio de contacto"
   },
   {
-    "url":"#link-ubicacion",
+    "url":"#ubicacion",
     "name":"Ubicación"
   },
   {
-    "url":"#link-agenda-cita",
+    "url":"#agenda-cita",
     "name":"Programa una cita"
   }
 ]

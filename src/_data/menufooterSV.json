@@ -4,15 +4,15 @@
     "name": "Inicio"
   },
   {
-    "url":"#link-nuestro-equipo",
+    "url":"#nuestro-equipo",
     "name":"Nuestro equipo"
   },
   {
-    "url":"#link-servicios",
+    "url":"#servicios-centro-integral",
     "name":"Servicios"
   },
   {
-    "url": "#link-salud-visual-int",
+    "url": "#salud-visual",
     "name": "Salud visual integral"
   }
 ]
