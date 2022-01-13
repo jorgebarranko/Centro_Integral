@@ -11,6 +11,7 @@ iframe{
     height: 100vh;
     margin: auto;
     overflow: hidden;
+    border: none;
 }
 @media (max-width: 900px){
 }
