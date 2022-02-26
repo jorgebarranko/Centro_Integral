@@ -273,7 +273,7 @@ a:focus{
 @media (max-width: 700px){
     .contenedor-cabecera-pp{
         background: linear-gradient(120deg,rgba(14, 13, 13, 0.6) 60%, rgba(187, 187, 187, 0.1) 90%), url(/assets/images/cirugia_landing_page_pp.svg) center top / cover;
-        height: 70vh;
+        height: 60vh;
         overflow: hidden;
         display: grid;
         align-content: center;
